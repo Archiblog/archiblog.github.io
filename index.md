@@ -1,4 +1,4 @@
-# Architecture as a System of Inquiry
+# Architecture as a System of Enquiry
 
 A catalogue of interconnected studies exploring architecture as a progressing system.
 
