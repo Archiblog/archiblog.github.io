@@ -41,6 +41,3 @@ The work proceeds through:
 This site is not intended to be read sequentially.
 
 It is designed to be navigated.
-
-- BMI
-- PTb
