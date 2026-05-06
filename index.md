@@ -42,10 +42,5 @@ This site is not intended to be read sequentially.
 
 It is designed to be navigated.
 
-
-A catalogue of interconnected studies exploring architecture as a progressing system.
-
-- Architecture
-- Edukit
 - BMI
 - PTb
