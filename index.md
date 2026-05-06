@@ -21,12 +21,12 @@ Catalogue An index of entries across the system
 
 ## Structure
 
-- [Architecture](https://archiblog.github.io/Architecture/)  
-- [Edukit](https://archiblog.github.io/Edukit/)  
-- [BMI Study](https://archiblog.github.io/BMI/)  
-- [Chronology](./chronology.md)  
-- [Catalogue](./catalogue.md)
-- 
+- [Architecture](https://archiblog.github.io/Architecture/)  Conceptual framework and definitions
+- [Edukit](https://archiblog.github.io/Edukit/)  An anticipatory educational system developed as a case study
+- [BMI Study](https://archiblog.github.io/BMI/)  Study Methodological development and experimental process
+- [Chronology](./chronology.md)  A developing timeline of projects, influences, and phases of work
+- [Catalogue](./catalogue.md) An index of entries across the system
+  
 ---
 
 ## Approach
