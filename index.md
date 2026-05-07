@@ -11,8 +11,8 @@ Rather than presenting a linear thesis, the material is structured as a set of e
 ## Structure
 
 - [Architecture](https://archiblog.github.io/Architecture/)  Conceptual framework and definitions
-- [Edukit](https://archiblog.github.io/Edukit/)  An anticipatory educational system developed as a case study
-- [BMI Study](https://archiblog.github.io/BMI/)  Study Methodological development and experimental process
+- [Edukit](https://archiblog.github.io/edukit/)  An anticipatory educational system developed as a case study
+- [BMI Study](https://archiblog.github.io/bmi/)  Study Methodological development and experimental process
 - [Chronology](./chronology.md)  A developing timeline of projects, influences, and phases of work
 - [Catalogue](./catalogue.md) An index of entries across the system
   
