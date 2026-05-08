@@ -21,14 +21,14 @@ Rather than presenting a linear thesis, the material is structured as a set of e
 ## PTb spiral
 
 - [BMI Study](https://archiblog.github.io/bmi/)  A shadow institution...
+- [Potteries Thinkbelt](https://archiblog.github.io/ptb/)  A plan ...
 
 ---
 
 ## pre-PTb spiral
 
-- [Chronology](./chronology.md)  A developing timeline of projects, influences, and phases of work
-- [Catalogue](./catalogue.md) An index of entries across the system
-  
+- [Fun Palace](https://archiblog.github.io/fun-palace/)  An anti-building
+
 ---
 
 ## Approach
