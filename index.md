@@ -11,13 +11,9 @@ Rather than presenting a linear thesis, the material is structured as a set of e
 
 ## Structure
 
-- [Edukit](https://archiblog.github.io/edukit/)  An anticipatory educational system developed as a case study
-- [Domestikit](https://archiblog.github.io/edukit/)  An anticipatory educational system developed as a case study
-
-
-- [Architecture](https://archiblog.github.io/Architecture/)  Conceptual framework and definitions
-- [Edukit](https://archiblog.github.io/edukit/)  An anticipatory educational system developed as a case study
-- [BMI Study](https://archiblog.github.io/bmi/)  Study Methodological development and experimental process
+- [Edukit](https://archiblog.github.io/edukit/)  A world educational system being tested in the UK in ATOM 2 and OCC
+- [Domestikit](https://archiblog.github.io/domestikit/)  A worldwide dwelling service being tested in the Uk at Rochdale ad Tilbury
+- [BMI Study](https://archiblog.github.io/bmi/)  A shadow institution...
 - [Chronology](./chronology.md)  A developing timeline of projects, influences, and phases of work
 - [Catalogue](./catalogue.md) An index of entries across the system
   
