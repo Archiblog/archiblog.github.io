@@ -3,9 +3,9 @@
 [Home](https://archiblog.github.io) | [Contents](https://github.com/Archiblog/?tab=repositories) | [Fun Palace](https://archiblog.github.io/fun-palace) | [PTb](https://archiblog.github.io/ptb) | [BMI](https://archiblog.github.io/bmi/) | [Edukit](https://archiblog.github.io/edukit/) | [Biography](https://github.com/Archiblog) 
 
 ![First public release of the post-PTb Spiral framework](drawings/png/preview/item_27015.png)
+* First public release of the post-PTb Spiral framework
 
-
-This work examines architecture as a progressing system organised through a catalogue of interconnected studies.
+This work defines architecture which may be said to be progressing through a catalogue of interconnected studies.
 
 Rather than presenting a linear thesis, the material is structured as a set of entries that can be approached independently while contributing to a wider framework.
 
