@@ -9,11 +9,21 @@ Rather than presenting a linear thesis, the material is structured as a set of e
 
 ---
 
-## Structure
+## post-PTb spiral
 
 - [Edukit](https://archiblog.github.io/edukit/)  A world educational system being tested in the UK in ATOM 2 and OCC
 - [Domestikit](https://archiblog.github.io/domestikit/)  A worldwide dwelling service being tested in the Uk at Rochdale and at Tilbury
+
+---
+
+## PTb spiral
+
 - [BMI Study](https://archiblog.github.io/bmi/)  A shadow institution...
+
+---
+
+## pre-PTb spiral
+
 - [Chronology](./chronology.md)  A developing timeline of projects, influences, and phases of work
 - [Catalogue](./catalogue.md) An index of entries across the system
   
