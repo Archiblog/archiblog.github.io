@@ -1,6 +1,6 @@
 # # Architecture as a System of Enquiry
 
-[Home](https://archiblog.github.io) | [Architecture](https://archiblog.github.io/Architecture/) | [Edukit](https://archiblog.github.io/edukit/) | [BMI](https://archiblog.github.io/bmi/) [Repos](https://github.com/Archiblog) 
+[Home](https://archiblog.github.io) | [Architecture](https://archiblog.github.io/Architecture/) | [Edukit](https://archiblog.github.io/edukit/) | [BMI](https://archiblog.github.io/bmi/) [Repos](https://github.com/Archiblog/?tab=repositories) 
 
 This work examines architecture as a progressing system organised through a catalogue of interconnected studies.
 
