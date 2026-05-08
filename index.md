@@ -1,9 +1,9 @@
 # # ARCHITECTURE: Redefining it as progressing
 
-[Home](https://archiblog.github.io) | [Contents](https://github.com/Archiblog/?tab=repositories) | [Fun Palace](https://archiblog.github.io/fun-palace) | [PTb](https://archiblog.github.io/ptb) | [BMI](https://archiblog.github.io/bmi/) | [Edukit](https://archiblog.github.io/edukit/) | [Biography](https://github.com/Archiblog) 
+[Home](https://archiblog.github.io) | [Repos](https://github.com/Archiblog/?tab=repositories) | [Fun Palace](https://archiblog.github.io/fun-palace) | [PTb](https://archiblog.github.io/ptb) | [BMI](https://archiblog.github.io/bmi/) | [Edukit](https://archiblog.github.io/edukit/) | [Biography](https://github.com/Archiblog) 
 
 ![First public release of the post-PTb Spiral framework](drawings/png/preview/item_27015.png)
-* First public release of the post-PTb Spiral framework
+* Figure 1. First public release of the post-PTb Spiral framework. Source: Norman Fellows repository.
 
 This work defines architecture which may be said to be *progressing* through a catalogue of interconnected studies.
 
