@@ -5,7 +5,7 @@
 ![First public release of the post-PTb Spiral framework](drawings/png/preview/item_27015.png)
 * **Figure 1.** First public release of the post-PTb Spiral framework. Source: [Norman Fellows repositories](https://github.com/Archiblog?tab=repositories)
 
-This work defines architecture which may be said to be *progressing* through a catalogue of interconnected studies.
+This work defines architecture which may be said to be *progressing* through a whole catalogue of interconnected studies.
 
 Rather than presenting a linear thesis, the material is structured as a set of entries that can be approached independently while contributing to a wider framework.
 
