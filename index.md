@@ -11,6 +11,10 @@ Rather than presenting a linear thesis, the material is structured as a set of e
 
 ## Structure
 
+- [Edukit](https://archiblog.github.io/edukit/)  An anticipatory educational system developed as a case study
+- [Domestikit](https://archiblog.github.io/edukit/)  An anticipatory educational system developed as a case study
+
+
 - [Architecture](https://archiblog.github.io/Architecture/)  Conceptual framework and definitions
 - [Edukit](https://archiblog.github.io/edukit/)  An anticipatory educational system developed as a case study
 - [BMI Study](https://archiblog.github.io/bmi/)  Study Methodological development and experimental process
