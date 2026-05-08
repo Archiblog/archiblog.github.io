@@ -1,6 +1,6 @@
 # # ARCHITECTURE: Redefining it as progressing
 
-[Home](https://archiblog.github.io) | [Edukit](https://archiblog.github.io/edukit/) | [BMI](https://archiblog.github.io/bmi/) | [Repos](https://github.com/Archiblog/?tab=repositories) 
+[Home](https://archiblog.github.io) | [Edukit](https://archiblog.github.io/edukit/) | [BMI](https://archiblog.github.io/bmi/) | [Repos](https://github.com/Archiblog/?tab=repositories) | [Biography](https://github.com/Archiblog) 
 
 This work examines architecture as a progressing system organised through a catalogue of interconnected studies.
 
