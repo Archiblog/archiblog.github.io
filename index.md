@@ -7,7 +7,7 @@
 
   ## Table of Contents
 
-1. [Introduction](https://github.com/Archiblog))
+1. [Introduction](https://github.com/Archiblog)
 2. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
