@@ -10,7 +10,7 @@
 1. [INTRODUCTION](https://github.com/Archiblog)
 2. [ACTION](#getting-started)
    - [PTb](https://archiblog.github.io/ptb/) :arrow_right:  DTb
-   - [Atom](https://archiblog.github.io/bmi/)
+   - [Atom](https://archiblog.github.io/bmi/) → Atom 2
    - [Installation](#installation)
 3. [TIME](#usage-examples)
    - [BMI](https://archiblog.github.io/bmi/)
