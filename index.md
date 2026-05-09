@@ -1,4 +1,4 @@
-# ARCHI<span style="color: grey;">TECTURE</span>: Redefining it as progressing
+# ARCHI<span style="color: white;">TECTURE</span>: Redefining it as progressing
 
 [Home](https://archiblog.github.io) | [Fun Palace](https://archiblog.github.io/fun-palace) | [PTb](https://archiblog.github.io/ptb) | [BMI](https://archiblog.github.io/bmi/) | [Edukit](https://archiblog.github.io/edukit/) |[Archi ](https://architecture.miraheze.org/wiki/Main_Page) | [Chronology](https://github.com/Archiblog) 
 
