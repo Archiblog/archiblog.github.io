@@ -5,6 +5,17 @@
 ![First public release of the post-PTb Spiral framework](drawings/png/preview/item_27015.png)
 * **Figure 1.** First public release of the post-PTb Spiral framework. Source: [Norman Fellows repositories](https://github.com/Archiblog?tab=repositories)
 
+  ## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+3. [Usage Examples](#usage-examples)
+4. [Advanced Features](#advanced-features)
+5. [Troubleshooting](#troubleshooting)
+6. [Conclusion](#conclusion)
+
 This work defines architecture which may be said to be *progressing* through a whole catalogue of interconnected studies.
 
 Rather than presenting a linear thesis, the material is structured as a set of entries that can be approached independently while contributing to a wider framework.
