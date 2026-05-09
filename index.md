@@ -5,18 +5,19 @@
 ![First public release of the post-PTb Spiral framework](drawings/png/preview/item_27015.png)
 * **Figure 1.** First public release of the post-PTb Spiral framework. Source: [Norman Fellows repositories](https://github.com/Archiblog?tab=repositories)
 
-  ## Table of Contents
+  ## CONTENTS
 
-1. [Introduction](https://github.com/Archiblog)
+1. [INTRODUCTION](https://github.com/Archiblog)
 2. [Action](#getting-started)
    - [Fun Palace](https://archiblog.github.io/fun-palace/)
    - [PTb](https://archiblog.github.io/ptb/)
    - [BMI](https://archiblog.github.io/bmi/)
    - [Installation](#installation)
-3. [Usage Examples](#usage-examples)
-4. [Advanced Features](#advanced-features)
-5. [Troubleshooting](#troubleshooting)
-6. [Conclusion](#conclusion)
+3. [TIME]
+4. [INCERTAINTY](#usage-examples)
+5. [BENEFICIAL CHANGE](#advanced-features)
+5. [FREE-SPACE](#troubleshooting)
+6. [CHRONONOLGY](#conclusion)
 
 This work defines architecture which may be said to be *progressing* through a whole catalogue of interconnected studies.
 
