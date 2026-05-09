@@ -8,16 +8,16 @@
   ## CONTENTS
 
 1. [INTRODUCTION](https://github.com/Archiblog)
-2. [Action](#getting-started)
+2. [ACTION](#getting-started)
    - [Fun Palace](https://archiblog.github.io/fun-palace/)
    - [PTb](https://archiblog.github.io/ptb/)
    - [BMI](https://archiblog.github.io/bmi/)
    - [Installation](#installation)
-3. [TIME]
-4. [INCERTAINTY](#usage-examples)
-5. [BENEFICIAL CHANGE](#advanced-features)
-5. [FREE-SPACE](#troubleshooting)
-6. [CHRONONOLGY](#conclusion)
+3. [TIME](#usage-examples)
+4. [BENEFICIAL CHANGE](#usage-examples)
+5. [BENEFI](#advanced-features)
+6. [FREE-SPACE](#troubleshooting)
+7. [CHRONONOLGY](#conclusion)
 
 This work defines architecture which may be said to be *progressing* through a whole catalogue of interconnected studies.
 
