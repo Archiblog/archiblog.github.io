@@ -10,7 +10,7 @@
 1. [Introduction](https://github.com/Archiblog)
 2. [Action](#getting-started)
    - [Prerequisites](#prerequisites)
-   - [PTb](#ptb)
+   - [PTb](https://archiblog.github.io/ptb/)
    - [BMI](https://archiblog.github.io/bmi/)
    - [Installation](#installation)
 3. [Usage Examples](#usage-examples)
