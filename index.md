@@ -1,6 +1,6 @@
 # # ARCHITECTURE: Redefining it as progressing
 
-[Home](https://archiblog.github.io) | [Repos](https://github.com/Archiblog/?tab=repositories) | [Fun Palace](https://archiblog.github.io/fun-palace) | [PTb](https://archiblog.github.io/ptb) | [BMI](https://archiblog.github.io/bmi/) | [Edukit](https://archiblog.github.io/edukit/) | [Chronology](https://github.com/Archiblog) | [Wiki](https://architecture.miraheze.org/wiki/Main_Page) 
+[Home](https://archiblog.github.io) | [Fun Palace](https://archiblog.github.io/fun-palace) | [PTb](https://archiblog.github.io/ptb) | [BMI](https://archiblog.github.io/bmi/) | [Edukit](https://archiblog.github.io/edukit/) |[Wiki](https://architecture.miraheze.org/wiki/Main_Page) | [Chronology](https://github.com/Archiblog) 
 
 ![First public release of the post-PTb Spiral framework](drawings/png/preview/item_27015.png)
 * **Figure 1.** First public release of the post-PTb Spiral framework. Source: [Norman Fellows repositories](https://github.com/Archiblog?tab=repositories)
