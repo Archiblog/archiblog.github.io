@@ -1,7 +1,3 @@
-# <span style="color: red;">Archi</span>[tecture... ...we]<span style="color: red;">blog: <span style="color: black;">Redefining it as progressing
-
-# <span style="color: red;">ARCHI</span>[tecture... ...we]<span style="color: red;">BLOG: Redefining it as progressing
-
 # <span style="color: red;">ARCHI</span>TECTURE: Redefining it as progressing
 
 [Home](https://archiblog.github.io) | [Fun Palace](https://archiblog.github.io/fun-palace) | [PTb](https://archiblog.github.io/ptb) | [BMI](https://archiblog.github.io/bmi/) | [Edukit](https://archiblog.github.io/edukit/) |[Archi ](https://architecture.miraheze.org/wiki/Main_Page) | [Chronology](https://github.com/Archiblog) 
@@ -65,3 +61,9 @@ The work proceeds through:
 This site is not intended to be read sequentially.
 
 It is designed to be navigated.
+
+# <span style="color: red;">Archi</span>[tecture... ...we]<span style="color: red;">blog: <span style="color: black;">Redefining it as progressing
+
+# <span style="color: red;">ARCHI</span>[tecture... ...we]<span style="color: red;">BLOG: Redefining it as progressing
+
+
