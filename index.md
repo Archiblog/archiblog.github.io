@@ -1,3 +1,5 @@
+# <span style="color: red;">Archi</span>[tecture... ...we]<span style="color: red;">blog: <span style="color: black;">Redefining it as progressing
+
 # <span style="color: red;">ARCHI</span>[tecture... ...we]<span style="color: red;">BLOG: Redefining it as progressing
 
 # <span style="color: red;">ARCHI</span>TECTURE: Redefining it as progressing
