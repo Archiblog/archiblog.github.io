@@ -9,7 +9,7 @@
 
 1. [Introduction](https://github.com/Archiblog)
 2. [Action](#getting-started)
-   - [Prerequisites](#prerequisites)
+   - [Fun Palace](https://archiblog.github.io/fun-palace/)
    - [PTb](https://archiblog.github.io/ptb/)
    - [BMI](https://archiblog.github.io/bmi/)
    - [Installation](#installation)
