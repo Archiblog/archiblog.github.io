@@ -1,6 +1,6 @@
 # <span style="color: red;">ARCHI</span>TECTURE: Redefining it as progressing
 
-[LEARNING] | PLEASURE AND FUN | NETWORKS/INFORMATION | HOUSING | PLANNING | STRUCTURES
+LEARNING | PLEASURE AND FUN | NETWORKS/INFORMATION | HOUSING | PLANNING | STRUCTURES
 
 [Home](https://archiblog.github.io) | [Fun Palace](https://archiblog.github.io/fun-palace) | [PTb](https://archiblog.github.io/ptb) | [BMI](https://archiblog.github.io/bmi/) | [Edukit](https://archiblog.github.io/edukit/) |[Archi ](https://architecture.miraheze.org/wiki/Main_Page) | [Chronology](https://github.com/Archiblog) 
 
