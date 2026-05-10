@@ -9,19 +9,19 @@ LEARNING | PLEASURE AND FUN | NETWORKS/INFORMATION | HOUSING | PLANNING | STRUCT
 
   ## CONTENTS
 
-INTRODUCTION
+1. INTRODUCTION
    - [Placeholder](https://archiblog.github.io/archi/)
-ACTION
+2. ACTION
    - [PTb](https://archiblog.github.io/ptb/) → Dukeries Thinkbelt
    - [Atom](https://archiblog.github.io/bmi/) → Atom 2
    - [Installation](#installation)
-4. [TIME](#usage-examples)
+3. TIME
    - [BMI](https://archiblog.github.io/bmi/)
-5. [UNCERTAINTY](#usage-examples)
+4. UNCERTAINTY
     - [Fun Palace](https://archiblog.github.io/fun-palace/)
-6. [BENEFICIAL CHANGE](#advanced-features)
-7. [FREE-SPACE](#troubleshooting)
-8. [CHRONOLGY](#conclusion)
+5. BENEFICIAL CHANGE
+6. FREE-SPACE
+7. CHRONOLGY
 
 This work defines architecture which may be said to be *progressing* through a whole catalogue of interconnected studies.
 
