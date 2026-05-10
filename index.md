@@ -9,9 +9,9 @@ LEARNING | PLEASURE AND FUN | NETWORKS/INFORMATION | HOUSING | PLANNING | STRUCT
 
   ## CONTENTS
 
-1. INTRODUCTION
+INTRODUCTION
    - [Placeholder](https://archiblog.github.io/archi/)
-3. [ACTION](#getting-started)
+ACTION
    - [PTb](https://archiblog.github.io/ptb/) → Dukeries Thinkbelt
    - [Atom](https://archiblog.github.io/bmi/) → Atom 2
    - [Installation](#installation)
