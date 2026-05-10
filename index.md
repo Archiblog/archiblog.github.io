@@ -8,13 +8,14 @@
   ## CONTENTS
 
 1. INTRODUCTION
-2. [ACTION](#getting-started)
-   - [PTb](https://archiblog.github.io/ptb/) :arrow_right:  DTb
+   - Cedric Price
+3. [ACTION](#getting-started)
+   - [PTb](https://archiblog.github.io/ptb/) → Dukeries Thinkbelt
    - [Atom](https://archiblog.github.io/bmi/) → Atom 2
    - [Installation](#installation)
-3. [TIME](#usage-examples)
+4. [TIME](#usage-examples)
    - [BMI](https://archiblog.github.io/bmi/)
-4. [UNCERTAINTY](#usage-examples)
+5. [UNCERTAINTY](#usage-examples)
     - [Fun Palace](https://archiblog.github.io/fun-palace/)
 6. [BENEFICIAL CHANGE](#advanced-features)
 7. [FREE-SPACE](#troubleshooting)
