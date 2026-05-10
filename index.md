@@ -8,7 +8,7 @@
   ## CONTENTS
 
 1. INTRODUCTION
-   - Cedric Price
+   - [Placeholder](https://github.com/Archiblog/archi)
 3. [ACTION](#getting-started)
    - [PTb](https://archiblog.github.io/ptb/) → Dukeries Thinkbelt
    - [Atom](https://archiblog.github.io/bmi/) → Atom 2
