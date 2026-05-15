@@ -3,7 +3,7 @@
 LEARNING | PLEASURE AND FUN | NETWORKS/INFORMATION | HOUSING | PLANNING | STRUCTURES
 
 ![First public release of the post-PTb Spiral framework](drawings/png/preview/item_27015.png)
-* **Figure 1.** First public release of the post-PTb Spiral framework. Source: [Archiblog repository](https://github.com/Archiblog/archiblog.github.io)
+* **Figure 1.** First public release of the post-PTb Spiral framework. Source: [Archiblog repositories](https://github.com/Archiblog?tab=repositories)
 
   ## CONTENTS
 
