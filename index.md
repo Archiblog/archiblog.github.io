@@ -1,4 +1,4 @@
-# <span style="color: red;">ARCHI</span>TECTURE: Redefining it as progressing
+# <span style="color: red;">ARCHIBLOG</span>: Redefining architecture as progressing
 
 LEARNING | PLEASURE AND FUN | NETWORKS/INFORMATION | HOUSING | PLANNING | STRUCTURES
 
