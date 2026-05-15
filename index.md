@@ -21,6 +21,7 @@ LEARNING | PLEASURE AND FUN | NETWORKS/INFORMATION | HOUSING | PLANNING | STRUCT
 6. FREE-SPACE
 7. CHRONOLOGY
     - [Bibliography: Articles by Norman Fellows](https://www.designingbuildings.co.uk/wiki/Archiblog%27s_Ordering#Archiblog.27s_articles_on_Designing_Buildings)
+    - [Bibliography: Selected Blogs by Norman Fellows](https://archiblog.wordpress.com)
 
 This work defines architecture which may be said to be *progressing* through a whole catalogue of interconnected studies.
 
