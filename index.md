@@ -11,7 +11,7 @@ LEARNING | PLEASURE AND FUN | NETWORKS/INFORMATION | HOUSING | PLANNING | STRUCT
    - [Placeholder](https://archiblog.github.io/archi/)
 2. ACTION
    - [PTb](https://archiblog.github.io/ptb/) → Dukeries Thinkbelt
-   - [Atom](https://archiblog.github.io/bmi/) → Atom 2
+   - [Atom](https://archiblog.github.io/atom/) → Atom 2
    - [Installation](#installation)
 3. TIME
    - [BMI](https://archiblog.github.io/bmi/)
@@ -20,6 +20,7 @@ LEARNING | PLEASURE AND FUN | NETWORKS/INFORMATION | HOUSING | PLANNING | STRUCT
 5. BENEFICIAL CHANGE
 6. FREE-SPACE
 7. CHRONOLOGY
+    - [Articles by Norman Fellows](https://www.designingbuildings.co.uk/wiki/Archiblog%27s_Ordering#Archiblog.27s_articles_on_Designing_Buildings)
 
 This work defines architecture which may be said to be *progressing* through a whole catalogue of interconnected studies.
 
