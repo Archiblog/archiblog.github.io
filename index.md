@@ -19,7 +19,7 @@ LEARNING | PLEASURE AND FUN | NETWORKS/INFORMATION | HOUSING | PLANNING | STRUCT
     - [Fun Palace](https://archiblog.github.io/fun-palace/)
 5. BENEFICIAL CHANGE
 6. FREE-SPACE
-7. CHRONOLGY
+7. CHRONOLOGY
 
 This work defines architecture which may be said to be *progressing* through a whole catalogue of interconnected studies.
 
