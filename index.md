@@ -5,7 +5,7 @@ LEARNING | PLEASURE AND FUN | NETWORKS/INFORMATION | HOUSING | PLANNING | STRUCT
 [Home](https://archiblog.github.io) | [Fun Palace](https://archiblog.github.io/fun-palace) | [PTb](https://archiblog.github.io/ptb) | [BMI](https://archiblog.github.io/bmi/) | [Edukit](https://archiblog.github.io/edukit/) |[Archi ](https://architecture.miraheze.org/wiki/Main_Page) | [Chronology](https://github.com/Archiblog) 
 
 ![First public release of the post-PTb Spiral framework](drawings/png/preview/item_27015.png)
-* **Figure 1.** First public release of the post-PTb Spiral framework. Source: [Norman Fellows repositories](https://github.com/Archiblog?tab=repositories)
+* **Figure 1.** First public release of the post-PTb Spiral framework. Source: [Archiblog repository](https://github.com/Archiblog/archiblog.github.io)
 
   ## CONTENTS
 
