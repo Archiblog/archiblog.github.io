@@ -6,7 +6,7 @@
 
 <p>Click the thumbnails:—</p>
 
-<a href="https://thinkbelt.wordpress.com/wp-content/uploads/2020/12/price-c.-1966-potteries-thinkbelt-architectural-design.pdf"><img src="images/ad-10-66.jpg" alt="CPotteries Thinkbelt" style="width:78px;height:100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://cedricpricesupplement.wordpress.com/2020/07/02/supplement-no-2/"><img src="images/ad-5-68.jpg" alt="Cedric Price Supplement No.2" style="width:78px;height:100px;"></a>
+<a href="https://thinkbelt.wordpress.com/wp-content/uploads/2020/12/price-c.-1966-potteries-thinkbelt-architectural-design.pdf"><img src="images/ad-10-66.jpg" alt="CPotteries Thinkbelt" style="width:78px;height:100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/Archiblog/archiblog.github.io/blob/main/pdfs/Price%2C%20C.%20(1968)%20Atom.pdf"><img src="images/ad-5-68.jpg" alt="Cedric Price Supplement No.2" style="width:78px;height:100px;"></a>
 
 </body>
 </html>
