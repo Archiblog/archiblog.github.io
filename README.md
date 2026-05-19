@@ -6,7 +6,8 @@
 
 <p>Click the thumbnails:—</p>
 
-<a href="https://thinkbelt.wordpress.com/wp-content/uploads/2020/12/price-c.-1966-potteries-thinkbelt-architectural-design.pdf"><img src="images/ad-10-66.jpg" alt="CPotteries Thinkbelt" style="width:78px;height:100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/Archiblog/archiblog.github.io/blob/main/pdfs/Price%2C%20C.%20(1968)%20Atom.pdf"><img src="images/ad-5-68.jpg" alt="Cedric Price Supplement No.2" style="width:78px;height:100px;"></a>
+<a href="https://github.com/Archiblog/archiblog.github.io/blob/main/pdfs/Price%2C%20C.%20(1966)%20PTB%20report.pdf"><img src="images/ptb-report-1-66.png" alt="CPotteries Thinkbelt Report" style="width:71px;height:100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/Archiblog/archiblog.github.io/blob/main/pdfs/Price%2C%20C.%20(1966)%20Potteries%20Thinkbelt%2C%20Architectural%20Design.pdf"><img src="images/ad-10-66.jpg" alt="CPotteries Thinkbelt" style="width:78px;height:100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/Archiblog/archiblog.github.io/blob/main/pdfs/Price%2C%20C.%20(1968)%20Atom.pdf"><img src="images/ad-5-68.jpg" alt="Cedric Price Supplement No.2" style="width:78px;height:100px;"></a>
 
 </body>
 </html>
