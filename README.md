@@ -4,7 +4,15 @@
 
 <h2>Image as a Link</h2>
 
-<p>The image below is a link. Try to click on it.</p>
+<p>The image below are links to the Cedric Price Supplements.</p>
+
+<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno1.jpg" alt="Cedric Price Supplement No.1" style="width:72px;height:100px;"></a>
+
+<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno1.jpg" alt="Cedric Price Supplement No.1" style="width:72px;height:100px;"></a>
+
+<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno1.jpg" alt="Cedric Price Supplement No.1" style="width:72px;height:100px;"></a>
+
+<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno1.jpg" alt="Cedric Price Supplement No.1" style="width:72px;height:100px;"></a>
 
 <a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno1.jpg" alt="Cedric Price Supplement No.1" style="width:72px;height:100px;"></a>
 
