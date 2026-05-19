@@ -6,7 +6,7 @@
 
 <p>The image below is a link. Try to click on it.</p>
 
-<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="CPno1.jpg" alt="Cedric Price Supplement No.1" style="width:72px;height:100px;"></a>
+<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno1.jpg" alt="Cedric Price Supplement No.1" style="width:72px;height:100px;"></a>
 
 </body>
 </html>
