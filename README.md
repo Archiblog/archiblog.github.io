@@ -1,7 +1,7 @@
 You can read the Cedric Price Supplement in full at the following addresses:—
 
 
-<a href="https://github.com/Archiblog/archiblog.github.io/blob/main/images/CPno1.jpg><<img src="images/CPno1.jpg" /></a>
+<a href="https://cedricpricesupplement.wordpress.com/?p=34><<img src="images/CPno1.jpg" /></a>
 
 
 https://cedricpricesupplement.wordpress.com/?p=34
