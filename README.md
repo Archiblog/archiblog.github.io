@@ -6,7 +6,7 @@
 
 <p>Click the thumbnails:—</p>
 
-<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/ad-10-66.jpg" alt="Cedric Price Supplement No.1" style="width:78px;height:100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://cedricpricesupplement.wordpress.com/2020/07/02/supplement-no-2/"><img src="images/ad-5-68.jpg" alt="Cedric Price Supplement No.2" style="width:72px;height:100px;"></a>
+<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/ad-10-66.jpg" alt="Cedric Price Supplement No.1" style="width:78px;height:100px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://cedricpricesupplement.wordpress.com/2020/07/02/supplement-no-2/"><img src="images/ad-5-68.jpg" alt="Cedric Price Supplement No.2" style="width:78px;height:100px;"></a>
 
 </body>
 </html>
