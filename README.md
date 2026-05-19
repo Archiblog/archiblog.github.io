@@ -8,13 +8,13 @@
 
 <a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno1.jpg" alt="Cedric Price Supplement No.1" style="width:72px;height:100px;"></a>
 
-<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno2.jpg" alt="Cedric Price Supplement No.2" style="width:72px;height:100px;"></a>
+<a href="https://cedricpricesupplement.wordpress.com/2020/07/02/supplement-no-2/"><img src="images/CPno2.jpg" alt="Cedric Price Supplement No.2" style="width:72px;height:100px;"></a>
 
-<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno3.jpg" alt="Cedric Price Supplement No.3" style="width:72px;height:100px;"></a>
+<a href="https://cedricpricesupplement.wordpress.com/?p=91"><img src="images/CPno3.jpg" alt="Cedric Price Supplement No.3" style="width:72px;height:100px;"></a>
 
-<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno4.jpg" alt="Cedric Price Supplement No.4" style="width:72px;height:100px;"></a>
+<a href="https://cedricpricesupplement.wordpress.com/supplement-no-4"><img src="images/CPno4.jpg" alt="Cedric Price Supplement No.4" style="width:72px;height:100px;"></a>
 
-<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno5.jpg" alt="Cedric Price Supplement No.5" style="width:82px;height:100px;"></a>
+<a href="https://cedricpricesupplement.wordpress.com/supplement-no-5"><img src="images/CPno5.jpg" alt="Cedric Price Supplement No.5" style="width:82px;height:100px;"></a>
 
 </body>
 </html>
