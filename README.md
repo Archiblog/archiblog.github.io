@@ -4,17 +4,17 @@
 
 <h2>Image as a Link</h2>
 
-<p>The image below are links to the Cedric Price Supplements.</p>
+<p>The images below are links to the Cedric Price Supplements.</p>
 
 <a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno1.jpg" alt="Cedric Price Supplement No.1" style="width:72px;height:100px;"></a>
 
-<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno1.jpg" alt="Cedric Price Supplement No.1" style="width:72px;height:100px;"></a>
+<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno2.jpg" alt="Cedric Price Supplement No.2" style="width:72px;height:100px;"></a>
 
-<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno1.jpg" alt="Cedric Price Supplement No.1" style="width:72px;height:100px;"></a>
+<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno3.jpg" alt="Cedric Price Supplement No.3" style="width:72px;height:100px;"></a>
 
-<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno1.jpg" alt="Cedric Price Supplement No.1" style="width:72px;height:100px;"></a>
+<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno4.jpg" alt="Cedric Price Supplement No.4" style="width:72px;height:100px;"></a>
 
-<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno1.jpg" alt="Cedric Price Supplement No.1" style="width:72px;height:100px;"></a>
+<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno5.jpg" alt="Cedric Price Supplement No.5" style="width:72px;height:100px;"></a>
 
 </body>
 </html>
