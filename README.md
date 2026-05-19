@@ -32,4 +32,3 @@ https://cedricpricesupplement.wordpress.com/2020/07/01/supplement-no-5/
 The purpose of this page..
 https://archiblog.github.io
 
-<a href="https://github.com/Archiblog/archiblog.github.io/blob/main/images/item_27142.png"><img src="images/item_27142.png" alt="AD covers" /></a>     </div>
