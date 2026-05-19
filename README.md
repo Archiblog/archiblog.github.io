@@ -14,7 +14,7 @@
 
 <a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno4.jpg" alt="Cedric Price Supplement No.4" style="width:72px;height:100px;"></a>
 
-<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno5.jpg" alt="Cedric Price Supplement No.5" style="width:72px;height:100px;"></a>
+<a href="https://cedricpricesupplement.wordpress.com/?p=34"><img src="images/CPno5.jpg" alt="Cedric Price Supplement No.5" style="width:82px;height:100px;"></a>
 
 </body>
 </html>
