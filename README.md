@@ -1,5 +1,12 @@
 You can read the Cedric Price Supplement in ful at the following addresses:—
 
+<a href="https://github.com/Archiblog/archiblog.github.io/blob/main/images/item_27142.png"><<img src="images/item_27142.png" alt="AD covers" /></a>     </div>
+
+
+<a href="https://github.com/Archiblog/archiblog.github.io/blob/main/images/CPno1.jpg/>
+
+</a>
+
 https://cedricpricesupplement.wordpress.com/?p=34
 
 https://cedricpricesupplement.wordpress.com/2020/07/02/supplement-no-2/
