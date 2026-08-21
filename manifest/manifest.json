@@ -5,19 +5,11 @@
 
   "label": {
     "en": [
-      "Cedric Price and Norman Fellows: Looking Up"
+      "Archikit 01"
     ]
   },
 
   "metadata": [
-    {
-      "label": {
-        "en": ["Item"]
-      },
-      "value": {
-        "en": ["item_13831"]
-      }
-    },
     {
       "label": {
         "en": ["Date"]
@@ -89,7 +81,9 @@
       "id": "https://archiblog.github.io/manifest/canvas-01",
       "type": "Canvas",
       "label": {
-        "en": ["item_13831"]
+        "en": [
+          "Cedric Price and Norman Fellows: Looking Up"
+        ]
       },
       "width": 1536,
       "height": 2048,
