@@ -1,82 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archiblog</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+    }
 
-<title>What should architecture do?</title>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, Helvetica, sans-serif;
+    }
 
-<style>
+    .landing {
+      text-align: center;
+    }
 
-html,
-body{
-    margin:0;
-    width:100%;
-    height:100%;
-}
+    .title {
+      color: #fff;
+      font-size: 50px;
+      font-weight: 300;
+      letter-spacing: -1px;
+      margin-bottom: 105px;
+    }
 
-body{
-    background:#000;
-    color:#fff;
-    font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    .arrow {
+      display: inline-block;
+      color: #888;
+      font-size: 72px;
+      font-weight: 300;
+      line-height: 1;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    overflow:hidden;
-}
-
-main{
-    text-align:center;
-}
-
-h1{
-    font-weight:300;
-    font-size:clamp(2rem,4vw,4rem);
-    line-height:1.25;
-    margin:0;
-    letter-spacing:-0.02em;
-}
-
-a.arrow{
-    display:inline-block;
-    margin-top:4rem;
-
-    color:#8a8a8a;
-    text-decoration:none;
-
-    font-size:5rem;
-    font-weight:300;
-
-    transition:all .25s ease;
-}
-
-a.arrow:hover{
-
-    color:white;
-    transform:scale(1.08);
-
-}
-
-</style>
-
+    .arrow:hover {
+      color: #fff;
+    }
+  </style>
 </head>
 
 <body>
 
-<main>
+  <main class="landing">
+    <div class="title">What should architecture do?</div>
 
-<h1>
-What should architecture do?
-</h1>
-
-<a class="arrow" href="propositions.html">
-&#8250;
-</a>
-
-</main>
+    <a class="arrow" href="archikit.html" aria-label="Enter Archikit">
+      ›
+    </a>
+  </main>
 
 </body>
 </html>
