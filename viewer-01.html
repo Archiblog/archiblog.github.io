@@ -51,12 +51,8 @@
     });
 
     /*
-     * Archikit viewer numbering
-     *
-     * Mirador normally uses the Manifest label as the
-     * window title. We retain the proper object title
-     * in the Manifest, but replace the window title with
-     * the Archikit position.
+     * Change only the Mirador window title.
+     * The Manifest itself retains the object's title.
      */
 
     function setArchikitTitle() {
@@ -65,7 +61,9 @@
       );
 
       titles.forEach(function(title) {
-        title.textContent = 'Archikit 01';
+        if (title.textContent.trim() !== 'Archikit 01') {
+          title.textContent = 'Archikit 01';
+        }
       });
     }
 
