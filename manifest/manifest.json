@@ -4,38 +4,30 @@
   "type": "Manifest",
 
   "label": {
-  "en": [
-    "Cedric Price and Norman Fellows: Looking Up"
-  ]
-},
+    "en": [
+      "Cedric Price and Norman Fellows: Looking Up"
+    ]
+  },
 
- "metadata": [
-  {
-    "label": {
-      "en": ["Title"]
+  "metadata": [
+    {
+      "label": {
+        "en": ["Date"]
+      },
+      "value": {
+        "en": ["23 December 2014"]
+      }
     },
-    "value": {
-      "en": ["Looking Up: Cedric Price and Norman Fellows"]
-    }
-  },
-  {
-    "label": {
-      "en": ["Date"]
+    {
+      "label": {
+        "en": ["Circumstances"]
+      },
+      "value": {
+        "en": [
+          "Taken during a visit to Cedric Price: Outside the Box, an exhibition of Cedric Price's work at St John's College, Cambridge."
+        ]
+      }
     },
-    "value": {
-      "en": ["23 December 2014"]
-    }
-  },
-  {
-    "label": {
-      "en": ["Circumstances"]
-    },
-    "value": {
-      "en": [
-        "Taken during a visit to Cedric Price: Outside the Box, an exhibition of Cedric Price's work at St John's College, Cambridge."
-      ]
-    }
-  },
     {
       "label": {
         "en": ["Photographer"]
@@ -89,10 +81,10 @@
       "id": "https://archiblog.github.io/manifest/canvas-01",
       "type": "Canvas",
       "label": {
-  "en": [
-    "item_13831"
-  ]
-},
+        "en": [
+          "Looking Up: Cedric Price and Norman Fellows"
+        ]
+      },
       "width": 1536,
       "height": 2048,
 
