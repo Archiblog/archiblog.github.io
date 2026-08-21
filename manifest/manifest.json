@@ -1,72 +1,166 @@
+```json
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "manifest.json",
+  "@context": "https://iiif.io/api/presentation/3/context.json",
+  "id": "https://archiblog.github.io/manifest/manifest.json",
   "type": "Manifest",
+
   "label": {
     "en": [
-      "Norman Fellows Scrapbook Viewer"
+      "Cedric Price and Norman Fellows: Looking Up"
     ]
   },
-  "items": [
+
+  "summary": {
+    "en": [
+      "A photograph of Cedric Price and Norman Fellows looking upward during a visit to the exhibition Cedric Price: Outside the Box at St John's College, Cambridge, on 23 December 2014."
+    ]
+  },
+
+  "metadata": [
     {
-      "id": "canvas-1",
-      "type": "Canvas",
       "label": {
         "en": [
-          "Earth — The Commons"
+          "Item"
         ]
       },
-      "width": 1844,
-      "height": 1096,
-      "items": [
-        {
-          "id": "annotation-page-1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "annotation-1",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "images/item_27214.png",
-                "type": "Image",
-                "format": "image/png",
-                "width": 1844,
-                "height": 1096
-              },
-              "target": "canvas-1"
-            }
-          ]
-        }
-      ]
+      "value": {
+        "en": [
+          "item_13831"
+        ]
+      }
     },
     {
-      "id": "canvas-2",
+      "label": {
+        "en": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "23 December 2014"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Circumstances"
+        ]
+      },
+      "value": {
+        "en": [
+          "Taken during a visit to Cedric Price: Outside the Box, an exhibition of Cedric Price's work at St John's College, Cambridge."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Photographer"
+        ]
+      },
+      "value": {
+        "en": [
+          "Patricia Fellows"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Provenance and permission"
+        ]
+      },
+      "value": {
+        "en": [
+          "Photograph by Patricia Fellows. Reproduced here with her permission."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Archiblog"
+        ]
+      },
+      "value": {
+        "en": [
+          "Used as the opening image on Archiblog since 11 September 2021, Cedric Price's birthday."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Original source"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://archiblog.wordpress.com/"
+        ]
+      }
+    }
+  ],
+
+  "homepage": [
+    {
+      "id": "https://archiblog.wordpress.com/",
+      "type": "Text",
+      "label": {
+        "en": [
+          "Archiblog"
+        ]
+      },
+      "format": "text/html"
+    }
+  ],
+
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "Photograph by Patricia Fellows. Reproduced with permission."
+      ]
+    }
+  },
+
+  "items": [
+    {
+      "id": "https://archiblog.github.io/manifest/canvas-01",
       "type": "Canvas",
       "label": {
         "en": [
-          "IFPRI — A Lung for Mid-town"
+          "item_13831"
         ]
       },
-      "width": 1008,
-      "height": 1400,
+      "width": 1536,
+      "height": 2048,
+
       "items": [
         {
-          "id": "annotation-page-2",
+          "id": "https://archiblog.github.io/manifest/page-01",
           "type": "AnnotationPage",
+
           "items": [
             {
-              "id": "annotation-2",
+              "id": "https://archiblog.github.io/manifest/annotation-01",
               "type": "Annotation",
               "motivation": "painting",
+
               "body": {
-                "id": "images/item_20949 - 443634.jpg",
+                "id": "https://archiblog.github.io/images/item_13831.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 1008,
-                "height": 1400
+                "width": 1536,
+                "height": 2048
               },
-              "target": "canvas-2"
+
+              "target": "https://archiblog.github.io/manifest/canvas-01"
             }
           ]
         }
@@ -74,3 +168,4 @@
     }
   ]
 }
+```
