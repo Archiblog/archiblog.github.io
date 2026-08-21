@@ -9,12 +9,6 @@
     ]
   },
 
-  "summary": {
-    "en": [
-      "A photograph of Cedric Price and Norman Fellows looking upward during a visit to the exhibition Cedric Price: Outside the Box at St John's College, Cambridge, on 23 December 2014."
-    ]
-  },
-
   "metadata": [
     {
       "label": {
@@ -52,12 +46,10 @@
     },
     {
       "label": {
-        "en": ["Provenance and permission"]
+        "en": ["Permission"]
       },
       "value": {
-        "en": [
-          "Photograph by Patricia Fellows. Reproduced here with her permission."
-        ]
+        "en": ["Reproduced with permission."]
       }
     },
     {
@@ -85,12 +77,10 @@
 
   "requiredStatement": {
     "label": {
-      "en": ["Attribution"]
+      "en": ["Permission"]
     },
     "value": {
-      "en": [
-        "Photograph by Patricia Fellows. Reproduced with permission."
-      ]
+      "en": ["Reproduced with permission."]
     }
   },
 
