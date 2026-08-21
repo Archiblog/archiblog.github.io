@@ -1,11 +1,10 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Archikit — Viewer 01</title>
+  <title>Archikit 01</title>
 
   <style>
     html, body {
@@ -40,7 +39,7 @@
 
       windows: [
         {
-          manifestId: 'manifest/manifest.json',
+          manifestId: 'https://archiblog.github.io/manifest/manifest.json',
           sideBarOpen: true,
           allowClose: false
         }
@@ -50,8 +49,37 @@
         type: 'mosaic'
       }
     });
+
+    /*
+     * Archikit viewer numbering
+     *
+     * Mirador normally uses the Manifest label as the
+     * window title. We retain the proper object title
+     * in the Manifest, but replace the window title with
+     * the Archikit position.
+     */
+
+    function setArchikitTitle() {
+      const titles = document.querySelectorAll(
+        '.mirador-window-top-bar h2'
+      );
+
+      titles.forEach(function(title) {
+        title.textContent = 'Archikit 01';
+      });
+    }
+
+    const observer = new MutationObserver(function() {
+      setArchikitTitle();
+    });
+
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true
+    });
+
+    setArchikitTitle();
   </script>
 
 </body>
 </html>
-```
