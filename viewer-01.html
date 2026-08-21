@@ -55,28 +55,63 @@
      * The Manifest itself retains the object's title.
      */
 
-    function setArchikitTitle() {
-      const titles = document.querySelectorAll(
-        '.mirador-window-top-bar h2'
-      );
+    function setArchikitInterface() {
 
-      titles.forEach(function(title) {
-        if (title.textContent.trim() !== 'Archikit 01') {
-          title.textContent = 'Archikit 01';
-        }
-      });
+  /* Archikit viewer number */
+  const titles = document.querySelectorAll(
+    '.mirador-window-top-bar h2'
+  );
+
+  titles.forEach(function(title) {
+    if (title.textContent.trim() !== 'Archikit 01') {
+      title.textContent = 'Archikit 01';
+    }
+  });
+
+
+  /* Replace Mirador terminology */
+  const walker = document.createTreeWalker(
+    document.body,
+    NodeFilter.SHOW_TEXT
+  );
+
+  const textNodes = [];
+
+  while (walker.nextNode()) {
+    textNodes.push(walker.currentNode);
+  }
+
+  textNodes.forEach(function(node) {
+
+    if (node.nodeValue.trim() === 'RESOURCE') {
+      node.nodeValue = node.nodeValue.replace(
+        'RESOURCE',
+        'CONTENTS'
+      );
     }
 
-    const observer = new MutationObserver(function() {
-      setArchikitTitle();
-    });
+    if (node.nodeValue.trim() === 'About this resource') {
+      node.nodeValue = node.nodeValue.replace(
+        'About this resource',
+        'About this content'
+      );
+    }
 
-    observer.observe(document.body, {
-      childList: true,
-      subtree: true
-    });
+  });
+}
 
-    setArchikitTitle();
+
+/* Watch Mirador as it builds and redraws its interface */
+const observer = new MutationObserver(function() {
+  setArchikitInterface();
+});
+
+observer.observe(document.body, {
+  childList: true,
+  subtree: true
+});
+
+setArchikitInterface();
   </script>
 
 </body>
