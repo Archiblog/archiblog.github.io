@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fantasia</title>
+
+  <title>Untitled</title>
 
   <style>
     html, body {
@@ -18,61 +19,81 @@
       min-height: 100vh;
     }
 
-    .page {
-      width: calc(100% - 40px);
-      max-width: 1400px;
-      margin: 40px auto;
-    }
-
-    h1 {
-      margin: 0 0 30px 0;
-      font-size: 28px;
-      font-weight: 400;
-      letter-spacing: 0.5px;
-    }
-
     .fantasia {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 42px 5.5vw 60px 5.5vw;
+
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 14px;
+      gap: 18px 18px;
     }
 
     .tile {
-      aspect-ratio: 4 / 3;
-      overflow: hidden;
-      border-radius: 18px;
-      background: #222;
-    }
-
-    .tile a {
+      position: relative;
       display: block;
       width: 100%;
-      height: 100%;
+      aspect-ratio: 1.85 / 1;
+
+      background: #222;
+      border-radius: 16px;
+      overflow: hidden;
+
+      text-decoration: none;
+      color: #fff;
     }
 
     .tile img {
       display: block;
       width: 100%;
       height: 100%;
+
       object-fit: cover;
-      object-position: center center;
+      border-radius: 16px;
+
+      transition: opacity 0.25s ease;
     }
 
-    .placeholder {
-      width: 100%;
-      height: 100%;
+    .tile:hover img {
+      opacity: 0.82;
+    }
+
+    .number {
+      position: absolute;
+      left: 12px;
+      bottom: 10px;
+
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 400;
+
+      color: rgba(255, 255, 255, 0.72);
+
+      pointer-events: none;
+    }
+
+    /* Empty tiles retain the Fantasia field */
+    .empty {
       background: #222;
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
       .fantasia {
         grid-template-columns: repeat(2, 1fr);
+        padding-left: 4vw;
+        padding-right: 4vw;
       }
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 520px) {
       .fantasia {
         grid-template-columns: 1fr;
+        padding-left: 5vw;
+        padding-right: 5vw;
+      }
+
+      .tile {
+        aspect-ratio: 1.85 / 1;
       }
     }
   </style>
@@ -80,34 +101,149 @@
 
 <body>
 
-  <main class="page">
+  <main class="fantasia">
 
-    <h1></h1>
+    <!-- ROW 1 -->
 
-    <section class="fantasia">
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/01.json">
+      <span class="number">01</span>
+    </a>
 
-      <div class="tile">
-       <a href="viewer-01.html" aria-label="Open Archikit Viewer 01">
-          <img
-            src="images/item_13831.jpg"
-            alt="Norman Fellows seated beside a photograph of Cedric Price"
-          >
-        </a>
-      </div>
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/02.json">
+      <span class="number">02</span>
+    </a>
 
-      <div class="tile">
-        <div class="placeholder"></div>
-      </div>
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/03.json">
+      <span class="number">03</span>
+    </a>
 
-      <div class="tile">
-        <div class="placeholder"></div>
-      </div>
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/04.json">
+      <span class="number">04</span>
+    </a>
 
-      <div class="tile">
-        <div class="placeholder"></div>
-      </div>
 
-    </section>
+    <!-- ROW 2 -->
+
+    <a class="tile"
+       href="mirador.html?manifest=manifests/05.json">
+
+      <img
+        src="images/cp-norman.jpg"
+        alt="Cedric Price and Norman Fellows">
+
+      <span class="number">05</span>
+    </a>
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/06.json">
+      <span class="number">06</span>
+    </a>
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/07.json">
+      <span class="number">07</span>
+    </a>
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/08.json">
+      <span class="number">08</span>
+    </a>
+
+
+    <!-- ROW 3 -->
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/09.json">
+      <span class="number">09</span>
+    </a>
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/10.json">
+      <span class="number">10</span>
+    </a>
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/11.json">
+      <span class="number">11</span>
+    </a>
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/12.json">
+      <span class="number">12</span>
+    </a>
+
+
+    <!-- ROW 4 -->
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/13.json">
+      <span class="number">13</span>
+    </a>
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/14.json">
+      <span class="number">14</span>
+    </a>
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/15.json">
+      <span class="number">15</span>
+    </a>
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/16.json">
+      <span class="number">16</span>
+    </a>
+
+
+    <!-- ROW 5 -->
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/17.json">
+      <span class="number">17</span>
+    </a>
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/18.json">
+      <span class="number">18</span>
+    </a>
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/19.json">
+      <span class="number">19</span>
+    </a>
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/20.json">
+      <span class="number">20</span>
+    </a>
+
+
+    <!-- ROW 6 -->
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/21.json">
+      <span class="number">21</span>
+    </a>
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/22.json">
+      <span class="number">22</span>
+    </a>
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/23.json">
+      <span class="number">23</span>
+    </a>
+
+    <a class="tile empty"
+       href="mirador.html?manifest=manifests/24.json">
+      <span class="number">24</span>
+    </a>
 
   </main>
 
