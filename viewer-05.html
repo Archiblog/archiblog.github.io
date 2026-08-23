@@ -83,12 +83,12 @@
 
   textNodes.forEach(function(node) {
 
-    if (node.nodeValue.trim() === 'RESOURCE') {
-      node.nodeValue = node.nodeValue.replace(
-        'RESOURCE',
-        'CONTENTS'
-      );
-    }
+    if (node.nodeValue.includes('RESOURCE')) {
+  node.nodeValue = node.nodeValue.replace(
+    'RESOURCE',
+    'CONTENTS'
+  );
+}
 
     if (node.nodeValue.trim() === 'About this resource') {
       node.nodeValue = node.nodeValue.replace(
