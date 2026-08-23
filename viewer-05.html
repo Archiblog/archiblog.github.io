@@ -55,7 +55,7 @@
      * The Manifest itself retains the object's title.
      */
 
-    function setArchikitInterface() {
+    function setTileInterface() {
 
   /* Archikit viewer number */
   const titles = document.querySelectorAll(
@@ -103,7 +103,7 @@
 
 /* Watch Mirador as it builds and redraws its interface */
 const observer = new MutationObserver(function() {
-  setArchikitInterface();
+  setTileInterface();
 });
 
 observer.observe(document.body, {
@@ -111,7 +111,7 @@ observer.observe(document.body, {
   subtree: true
 });
 
-setArchikitInterface();
+setTileInterface();
   </script>
 
 </body>
