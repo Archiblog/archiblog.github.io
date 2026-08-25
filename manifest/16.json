@@ -2,12 +2,20 @@
   "@context": "https://iiif.io/api/presentation/3/context.json",
   "id": "https://archiblog.github.io/manifest/16.json",
   "type": "Manifest",
-  "label": {"en": ["How to Change the World"]},
+  "label": {
+    "en": [
+      "How to Change the World"
+    ]
+  },
   "homepage": [
     {
       "id": "https://archiblog.github.io/index.html",
       "type": "Text",
-      "label": {"en": ["Fantasia"]},
+      "label": {
+        "en": [
+          "Fantasia"
+        ]
+      },
       "format": "text/html"
     }
   ],
@@ -15,123 +23,512 @@
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-01",
       "type": "Canvas",
-      "label": {"en": ["How to Change the World"]},
+      "label": {
+        "en": [
+          "How to Change the World"
+        ]
+      },
       "width": 2048,
       "height": 1152,
-      "items": [{
-        "id": "https://archiblog.github.io/manifest/tile16-page-01",
-        "type": "AnnotationPage",
-        "items": [{
-          "id": "https://archiblog.github.io/manifest/tile16-annotation-01",
-          "type": "Annotation",
-          "motivation": "painting",
-          "body": {
-            "id": "https://archiblog.github.io/images/item_27227.png",
-            "type": "Image",
-            "format": "image/png",
-            "width": 2048,
-            "height": 1152
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/tile16-page-01",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/tile16-annotation-01",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27227.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2048,
+                "height": 1152
+              },
+              "target": "https://archiblog.github.io/manifest/tile16-canvas-01"
+            }
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Question opened by this object"
+            ]
           },
-          "target": "https://archiblog.github.io/manifest/tile16-canvas-01"
-        }]
-      }]
+          "value": {
+            "en": [
+              "What might we change?"
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-02",
       "type": "Canvas",
-      "label": {"en": ["The Blue Marble"]},
+      "label": {
+        "en": [
+          "The Blue Marble"
+        ]
+      },
       "width": 640,
       "height": 480,
-      "items": [{
-        "id": "https://archiblog.github.io/manifest/tile16-page-02",
-        "type": "AnnotationPage",
-        "items": [{
-          "id": "https://archiblog.github.io/manifest/tile16-annotation-02",
-          "type": "Annotation",
-          "motivation": "painting",
-          "body": {
-            "id": "https://archiblog.github.io/images/item_11397.png",
-            "type": "Image",
-            "format": "image/png",
-            "width": 640,
-            "height": 480
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/tile16-page-02",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/tile16-annotation-02",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/item_11397.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 640,
+                "height": 480
+              },
+              "target": "https://archiblog.github.io/manifest/tile16-canvas-02"
+            }
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Question opened by this object"
+            ]
           },
-          "target": "https://archiblog.github.io/manifest/tile16-canvas-02"
-        }]
-      }]
+          "value": {
+            "en": [
+              "What is the world we share?"
+            ]
+          }
+        }
+      ],
+      "homepage": [
+        {
+          "id": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17_(AS17-148-22727).jpg",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Wikimedia Commons"
+            ]
+          },
+          "format": "text/html"
+        }
+      ]
     },
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-03",
       "type": "Canvas",
-      "label": {"en": ["VID_0439 — Introduction: Social Good and Tragedy of the Commons"]},
+      "label": {
+        "en": [
+          "VID_0439 — Introduction: Social Good and Tragedy of the Commons"
+        ]
+      },
       "width": 1600,
       "height": 900,
-      "homepage": [{
-        "id": "https://www.youtube.com/watch?v=REPLACE_VID_0439",
-        "type": "Text",
-        "label": {"en": ["Watch video"]},
-        "format": "text/html"
-      }],
-      "items": [{"id":"https://archiblog.github.io/manifest/tile16-page-03","type":"AnnotationPage","items":[{"id":"https://archiblog.github.io/manifest/tile16-annotation-03","type":"Annotation","motivation":"painting","body":{"id":"https://archiblog.github.io/images/placeholder_VID_0439.png","type":"Image","format":"image/png","width":1600,"height":900},"target":"https://archiblog.github.io/manifest/tile16-canvas-03"}]}]
+      "homepage": [
+        {
+          "id": "https://www.youtube.com/watch?v=p-lx2ebYYpY",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Watch video"
+            ]
+          },
+          "format": "text/html"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/tile16-page-03",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/tile16-annotation-03",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/placeholder_VID_0439.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 1600,
+                "height": 900
+              },
+              "target": "https://archiblog.github.io/manifest/tile16-canvas-03"
+            }
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Question opened by this object"
+            ]
+          },
+          "value": {
+            "en": [
+              "What is a social good?"
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-04",
       "type": "Canvas",
-      "label": {"en": ["VID_0440 — Genealogy of the Idea of Social Good"]},
+      "label": {
+        "en": [
+          "VID_0440 — Genealogy of the Idea of Social Good"
+        ]
+      },
       "width": 1600,
       "height": 900,
-      "homepage": [{
-        "id": "https://youtu.be/zvgC7uAlkt8",
-        "type": "Text",
-        "label": {"en": ["Watch video"]},
-        "format": "text/html"
-      }],
-      "items": [{"id":"https://archiblog.github.io/manifest/tile16-page-04","type":"AnnotationPage","items":[{"id":"https://archiblog.github.io/manifest/tile16-annotation-04","type":"Annotation","motivation":"painting","body":{"id":"https://archiblog.github.io/images/placeholder_VID_0440.png","type":"Image","format":"image/png","width":1600,"height":900},"target":"https://archiblog.github.io/manifest/tile16-canvas-04"}]}]
+      "homepage": [
+        {
+          "id": "https://www.youtube.com/watch?v=zvgC7uAIkt8",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Watch video"
+            ]
+          },
+          "format": "text/html"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/tile16-page-04",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/tile16-annotation-04",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/placeholder_VID_0440.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 1600,
+                "height": 900
+              },
+              "target": "https://archiblog.github.io/manifest/tile16-canvas-04"
+            }
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Question opened by this object"
+            ]
+          },
+          "value": {
+            "en": [
+              "Under what conditions can a common good arise?"
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-05",
       "type": "Canvas",
-      "label": {"en": ["VID_0572 — Reciprocity and Giving Back to the Commons"]},
+      "label": {
+        "en": [
+          "VID_0572 — Reciprocity and Giving Back to the Commons"
+        ]
+      },
       "width": 1600,
       "height": 900,
-      "homepage": [{"id":"https://www.youtube.com/","type":"Text","label":{"en":["Watch video"]},"format":"text/html"}],
-      "items": [{"id":"https://archiblog.github.io/manifest/tile16-page-05","type":"AnnotationPage","items":[{"id":"https://archiblog.github.io/manifest/tile16-annotation-05","type":"Annotation","motivation":"painting","body":{"id":"https://archiblog.github.io/images/placeholder_VID_0572.png","type":"Image","format":"image/png","width":1600,"height":900},"target":"https://archiblog.github.io/manifest/tile16-canvas-05"}]}]
+      "homepage": [
+        {
+          "id": "https://www.youtube.com/watch?v=jfOLKroltqM",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Watch video"
+            ]
+          },
+          "format": "text/html"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/tile16-page-05",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/tile16-annotation-05",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/placeholder_VID_0572.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 1600,
+                "height": 900
+              },
+              "target": "https://archiblog.github.io/manifest/tile16-canvas-05"
+            }
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Question opened by this object"
+            ]
+          },
+          "value": {
+            "en": [
+              "How might we enrich and replenish the Commons?"
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-06",
       "type": "Canvas",
-      "label": {"en": ["VID_0573 — From Legitimate Communal Regulation to Pressures for Exploitation"]},
+      "label": {
+        "en": [
+          "VID_0573 — From Legitimate Communal Regulation to Pressures for Exploitation"
+        ]
+      },
       "width": 1600,
       "height": 900,
-      "homepage": [{"id":"https://www.youtube.com/","type":"Text","label":{"en":["Watch video"]},"format":"text/html"}],
-      "items": [{"id":"https://archiblog.github.io/manifest/tile16-page-06","type":"AnnotationPage","items":[{"id":"https://archiblog.github.io/manifest/tile16-annotation-06","type":"Annotation","motivation":"painting","body":{"id":"https://archiblog.github.io/images/placeholder_VID_0573.png","type":"Image","format":"image/png","width":1600,"height":900},"target":"https://archiblog.github.io/manifest/tile16-canvas-06"}]}]
+      "homepage": [
+        {
+          "id": "https://www.youtube.com/watch?v=Q3KiaWRem3c",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Watch video"
+            ]
+          },
+          "format": "text/html"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/tile16-page-06",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/tile16-annotation-06",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/placeholder_VID_0573.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 1600,
+                "height": 900
+              },
+              "target": "https://archiblog.github.io/manifest/tile16-canvas-06"
+            }
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Question opened by this object"
+            ]
+          },
+          "value": {
+            "en": [
+              "What happens when the Commons becomes subject to ownership and exploitation?"
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-07",
       "type": "Canvas",
-      "label": {"en": ["VID_0574 — Malala and the Courage of Education — Part 1"]},
+      "label": {
+        "en": [
+          "VID_0574 — Malala and the Courage of Education — Part 1"
+        ]
+      },
       "width": 1600,
       "height": 900,
-      "homepage": [{"id":"https://www.youtube.com/","type":"Text","label":{"en":["Watch video"]},"format":"text/html"}],
-      "items": [{"id":"https://archiblog.github.io/manifest/tile16-page-07","type":"AnnotationPage","items":[{"id":"https://archiblog.github.io/manifest/tile16-annotation-07","type":"Annotation","motivation":"painting","body":{"id":"https://archiblog.github.io/images/placeholder_VID_0574.png","type":"Image","format":"image/png","width":1600,"height":900},"target":"https://archiblog.github.io/manifest/tile16-canvas-07"}]}]
+      "homepage": [
+        {
+          "id": "https://www.youtube.com/watch?v=_DhktKMdoFI",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Watch video"
+            ]
+          },
+          "format": "text/html"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/tile16-page-07",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/tile16-annotation-07",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/placeholder_VID_0574.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 1600,
+                "height": 900
+              },
+              "target": "https://archiblog.github.io/manifest/tile16-canvas-07"
+            }
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Question opened by this object"
+            ]
+          },
+          "value": {
+            "en": [
+              "What makes education possible as an instrument of change? (provisional — no transcript available)"
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-08",
       "type": "Canvas",
-      "label": {"en": ["VID_0575 — Malala and the Courage of Education — Part 2"]},
+      "label": {
+        "en": [
+          "VID_0575 — Malala and the Courage of Education — Part 2"
+        ]
+      },
       "width": 1600,
       "height": 900,
-      "homepage": [{"id":"https://www.youtube.com/","type":"Text","label":{"en":["Watch video"]},"format":"text/html"}],
-      "items": [{"id":"https://archiblog.github.io/manifest/tile16-page-08","type":"AnnotationPage","items":[{"id":"https://archiblog.github.io/manifest/tile16-annotation-08","type":"Annotation","motivation":"painting","body":{"id":"https://archiblog.github.io/images/placeholder_VID_0575.png","type":"Image","format":"image/png","width":1600,"height":900},"target":"https://archiblog.github.io/manifest/tile16-canvas-08"}]}]
+      "homepage": [
+        {
+          "id": "https://www.youtube.com/watch?v=k939NReZDMI",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Watch video"
+            ]
+          },
+          "format": "text/html"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/tile16-page-08",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/tile16-annotation-08",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/placeholder_VID_0575.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 1600,
+                "height": 900
+              },
+              "target": "https://archiblog.github.io/manifest/tile16-canvas-08"
+            }
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Question opened by this object"
+            ]
+          },
+          "value": {
+            "en": [
+              "How can education create the capacity to act and to change the world?"
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-09",
       "type": "Canvas",
-      "label": {"en": ["VID_0576 — Education and Building Human Capacity"]},
+      "label": {
+        "en": [
+          "VID_0576 — Education and Building Human Capacity"
+        ]
+      },
       "width": 1600,
       "height": 900,
-      "homepage": [{"id":"https://www.youtube.com/","type":"Text","label":{"en":["Watch video"]},"format":"text/html"}],
-      "items": [{"id":"https://archiblog.github.io/manifest/tile16-page-09","type":"AnnotationPage","items":[{"id":"https://archiblog.github.io/manifest/tile16-annotation-09","type":"Annotation","motivation":"painting","body":{"id":"https://archiblog.github.io/images/placeholder_VID_0576.png","type":"Image","format":"image/png","width":1600,"height":900},"target":"https://archiblog.github.io/manifest/tile16-canvas-09"}]}]
+      "homepage": [
+        {
+          "id": "https://www.youtube.com/watch?v=j6ZEjDAHZiA",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Watch video"
+            ]
+          },
+          "format": "text/html"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/tile16-page-09",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/tile16-annotation-09",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/placeholder_VID_0576.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 1600,
+                "height": 900
+              },
+              "target": "https://archiblog.github.io/manifest/tile16-canvas-09"
+            }
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Question opened by this object"
+            ]
+          },
+          "value": {
+            "en": [
+              "What human capacities do we need to change the world? (provisional — no transcript available)"
+            ]
+          }
+        }
+      ]
     }
   ]
 }
