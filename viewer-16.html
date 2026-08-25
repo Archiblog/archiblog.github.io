@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Tile 16</title>
+
 <style>
   html, body {
     margin: 0;
@@ -18,7 +20,7 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  /* A separate navigation layer: deliberately independent of Mirador. */
+  /* Tile navigation — deliberately independent of Mirador */
   #tile16-navigation {
     position: fixed;
     top: 0;
@@ -40,9 +42,17 @@
     align-items: center;
   }
 
-  #tile16-navigation .left { justify-self: start; }
-  #tile16-navigation .centre { justify-self: center; }
-  #tile16-navigation .right { justify-self: end; }
+  #tile16-navigation .left {
+    justify-self: start;
+  }
+
+  #tile16-navigation .centre {
+    justify-self: center;
+  }
+
+  #tile16-navigation .right {
+    justify-self: end;
+  }
 
   #tile16-navigation a {
     color: #fff;
@@ -56,6 +66,7 @@
     text-decoration: underline;
   }
 
+  /* Mirador occupies everything below the navigation */
   #mirador {
     position: fixed !important;
     top: 42px !important;
@@ -67,29 +78,54 @@
     z-index: 1;
   }
 </style>
+
 <script src="https://unpkg.com/mirador@4.1.0/dist/mirador.min.js"></script>
+
 </head>
+
 <body>
-  <header id="tile16-navigation" aria-label="Tile navigation">
-    <nav>
-      <div class="left"><a href="index.html">← Fantasia</a></div>
-      <div class="centre"><a href="#" aria-label="Spread placeholder">Spread ↑</a></div>
-      <div class="right"><a href="#" aria-label="Catalogue placeholder">Catalogue →</a></div>
-    </nav>
-  </header>
 
-  <main id="mirador" aria-label="Tile 16 Viewer"></main>
+<header id="tile16-navigation" aria-label="Tile navigation">
 
-  <script>
-    Mirador.viewer({
-      id: 'mirador',
-      windows: [{
-        manifestId: 'https://archiblog.github.io/manifest/16.json',
-        sideBarOpen: true,
-        allowClose: false
-      }],
-      workspace: { type: 'mosaic' }
-    });
-  </script>
+  <nav>
+
+    <div class="left">
+      <a href="index.html">← Fantasia</a>
+    </div>
+
+    <div class="centre">
+      <a href="#" aria-label="Spread placeholder">
+        Spread ↑
+      </a>
+    </div>
+
+    <div class="right">
+      <a href="#" aria-label="Catalogue placeholder">
+        Catalogue →
+      </a>
+    </div>
+
+  </nav>
+
+</header>
+
+<main id="mirador" aria-label="Tile 16 Viewer"></main>
+
+<script>
+  Mirador.viewer({
+    id: 'mirador',
+
+    windows: [{
+      manifestId: 'https://archiblog.github.io/manifest/16.json',
+      sideBarOpen: true,
+      allowClose: false
+    }],
+
+    workspace: {
+      type: 'mosaic'
+    }
+  });
+</script>
+
 </body>
 </html>
