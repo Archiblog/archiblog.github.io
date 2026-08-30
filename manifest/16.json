@@ -94,25 +94,26 @@
           },
           "target": "https://archiblog.github.io/manifest/tile16-canvas-02"
         }
-      ]
+            ]
     }
   ],
   "metadata": [
     {
-      "label": {
-        "en": [
-          "Question opened by this object"
-        ]
-      },
-      "value": {
-        "en": [
-          "What is the world we share?"
-        ]
-      }
+      ...
     }
   ]
 },
-      "items": [
+{
+  "id": "https://archiblog.github.io/manifest/tile16-canvas-03",
+  "type": "Canvas",
+  "label": {
+    "en": [
+      "VID_0439 — Introduction: Social Good and Tragedy of the Commons"
+    ]
+  },
+  "width": 1600,
+  "height": 900,
+  "items": [
         {
           "id": "https://archiblog.github.io/manifest/tile16-page-03",
           "type": "AnnotationPage",
