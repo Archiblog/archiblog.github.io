@@ -67,78 +67,52 @@
       ]
     },
     {
-      "id": "https://archiblog.github.io/manifest/tile16-canvas-02",
-      "type": "Canvas",
-      "label": {
-        "en": [
-          "The Blue Marble"
-        ]
-      },
-      "width": 640,
-      "height": 480,
+{
+  "id": "https://archiblog.github.io/manifest/tile16-canvas-02",
+  "type": "Canvas",
+  "label": {
+    "en": [
+      "item_11397"
+    ]
+  },
+  "width": 640,
+  "height": 480,
+  "items": [
+    {
+      "id": "https://archiblog.github.io/manifest/tile16-page-02",
+      "type": "AnnotationPage",
       "items": [
         {
-          "id": "https://archiblog.github.io/manifest/tile16-page-02",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://archiblog.github.io/manifest/tile16-annotation-02",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://archiblog.github.io/images/item_11397.png",
-                "type": "Image",
-                "format": "image/png",
-                "width": 640,
-                "height": 480
-              },
-              "target": "https://archiblog.github.io/manifest/tile16-canvas-02"
-            }
-          ]
-        }
-      ],
-      "metadata": [
-        {
-          "label": {
-            "en": [
-              "Question opened by this object"
-            ]
+          "id": "https://archiblog.github.io/manifest/tile16-annotation-02",
+          "type": "Annotation",
+          "motivation": "painting",
+          "body": {
+            "id": "https://archiblog.github.io/images/item_11397.png",
+            "type": "Image",
+            "format": "image/png",
+            "width": 640,
+            "height": 480
           },
-          "value": {
-            "en": [
-              "What is the world we share?"
-            ]
-          }
-        }
-      ],
-      "homepage": [
-        {
-          "id": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17_(AS17-148-22727).jpg",
-          "type": "Text",
-          "label": {
-            "en": [
-              "Wikimedia Commons"
-            ]
-          },
-          "format": "text/html"
+          "target": "https://archiblog.github.io/manifest/tile16-canvas-02"
         }
       ]
-    },
-    
-      "width": 1600,
-      "height": 900,
-      "homepage": [
-        {
-          "id": "https://www.youtube.com/watch?v=p-lx2ebYYpY",
-          "type": "Text",
-          "label": {
-            "en": [
-              "Introduction: Social Good and Tragedy of the Commons"
-            ]
-          },
-          "format": "text/html"
-        }
-      ],
+    }
+  ],
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Question opened by this object"
+        ]
+      },
+      "value": {
+        "en": [
+          "What is the world we share?"
+        ]
+      }
+    }
+  ]
+},
       "items": [
         {
           "id": "https://archiblog.github.io/manifest/tile16-page-03",
