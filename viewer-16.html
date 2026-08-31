@@ -121,12 +121,17 @@
   Mirador.viewer({
     id: 'mirador',
 
-    windows: [{
-      manifestId: 'https://archiblog.github.io/manifest/16.json',
-      sideBarOpen: true,
-      allowClose: false
-    }],
-
+   windows: [{
+    manifestId: 'https://archiblog.github.io/manifest/16.json',
+    sideBarOpen: true,
+    allowClose: false,
+    panels: {
+        info: true,
+        attribution: true,
+        canvas: true,
+        annotations: true
+    }
+}],
     workspace: {
       type: 'mosaic'
     }
