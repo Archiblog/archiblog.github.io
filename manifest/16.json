@@ -7,18 +7,28 @@
       "How to Change the World"
     ]
   },
-  "homepage": [
-    {
-      "id": "https://archiblog.github.io/index.html",
-      "type": "Text",
-      "label": {
-        "en": [
-          "Fantasia"
-        ]
-      },
-      "format": "text/html"
-    }
-  ],
+ "homepage": [
+  {
+    "id": "https://archiblog.github.io/index.html",
+    "type": "Text",
+    "label": {
+      "en": [
+        "Fantasia"
+      ]
+    },
+    "format": "text/html"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=p-lx2ebYYpY",
+    "type": "Text",
+    "label": {
+      "en": [
+        "Introduction: Social Good and Tragedy of the Commons"
+      ]
+    },
+    "format": "text/html"
+  }
+],
   "items": [
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-01",
