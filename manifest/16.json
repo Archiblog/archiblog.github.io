@@ -147,19 +147,19 @@
           }
         }
       ],
-      "homepage": [
-        {
-          "id": "https://www.youtube.com/watch?v=p-lx2ebYYpY",
-          "type": "Text",
-          "label": {
-            "en": [
-              "Introduction: Social Good and Tragedy of the Commons"
-            ]
-          },
-          "format": "text/html"
-        }
-      ]
-        "metadata": [
+          "homepage": [
+      {
+        "id": "https://www.youtube.com/watch?v=p-lx2ebYYpY",
+        "type": "Text",
+        "label": {
+          "en": [
+            "Introduction: Social Good and Tragedy of the Commons"
+          ]
+        },
+        "format": "text/html"
+      }
+    ],
+    "metadata": [
       {
         "label": {
           "en": [
@@ -172,8 +172,8 @@
           ]
         }
       }
-    ],
-},
+    ]
+  },
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-04",
       "type": "Canvas",
