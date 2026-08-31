@@ -131,57 +131,7 @@
       type: 'mosaic'
     }
   });
-  <script>
-    Mirador.viewer({
-        id: 'mirador',
-
-        windows: [{
-            manifestId: 'https://archiblog.github.io/manifest/16.json',
-            sideBarOpen: true,
-            allowClose: false
-        }],
-
-        workspace: {
-            type: 'mosaic'
-        }
-    });
-
-    /* Tile 16 — Object 3 video link */
-    const tile16Video = document.createElement('a');
-
-    tile16Video.href = 'video/vid-0439.html';
-    tile16Video.textContent = 'Watch introduction video →';
-    tile16Video.target = '_blank';
-    tile16Video.rel = 'noopener';
-    tile16Video.style.display = 'block';
-    tile16Video.style.marginTop = '16px';
-    tile16Video.style.padding = '10px 0';
-    tile16Video.style.fontWeight = '600';
-    tile16Video.style.textDecoration = 'none';
-
-    function addTile16VideoLink() {
-        const sidebar = document.querySelector(
-            '[aria-label="About this item"]'
-        );
-
-        if (!sidebar) return;
-
-        if (sidebar.querySelector('#tile16-video-link')) return;
-
-        tile16Video.id = 'tile16-video-link';
-        sidebar.appendChild(tile16Video);
-    }
-
-    const tile16Observer = new MutationObserver(() => {
-        addTile16VideoLink();
-    });
-
-    tile16Observer.observe(document.body, {
-        childList: true,
-        subtree: true
-    });
-
-    addTile16VideoLink();
+  
 </script>
 </body>
 </html>
