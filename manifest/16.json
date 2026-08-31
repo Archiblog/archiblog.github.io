@@ -133,32 +133,32 @@
           ]
         }
       ],
-                   "metadata": [
-          {
-            "label": {
-              "en": [
-                "Question opened by this object"
-              ]
-            },
-            "value": {
-              "en": [
-                "What is a social good?"
-              ]
-            }
-          }
-        ],
-        "homepage": [
-          {
-            "id": "https://archiblog.github.io/video/vid-0439.html",
-            "type": "Text",
-            "label": {
-              "en": [
-                "Watch video"
-              ]
-            },
-            "format": "text/html"
-          }
-        ]
+                  "metadata": [
+  {
+    "label": {
+      "en": [
+        "Question opened by this object"
+      ]
+    },
+    "value": {
+      "en": [
+        "What is a social good?"
+      ]
+    }
+  },
+  {
+    "label": {
+      "en": [
+        "Video"
+      ]
+    },
+    "value": {
+      "en": [
+        "(Watch on YouTube)"
+      ]
+    }
+  }
+],
       },
       {
         "id": "https://archiblog.github.io/manifest/tile16-canvas-04",
