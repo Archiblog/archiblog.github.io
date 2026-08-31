@@ -159,7 +159,21 @@
           "format": "text/html"
         }
       ]
-    },
+        "metadata": [
+      {
+        "label": {
+          "en": [
+            "Watch video"
+          ]
+        },
+        "value": {
+          "en": [
+            "https://www.youtube.com/watch?v=p-lx2ebYYpY"
+          ]
+        }
+      }
+    ],
+},
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-04",
       "type": "Canvas",
