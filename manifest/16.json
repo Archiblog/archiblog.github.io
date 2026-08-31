@@ -159,6 +159,7 @@
     "format": "text/html"
   }
 ],
+  },
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-04",
       "type": "Canvas",
