@@ -402,19 +402,31 @@
         }
       ],
       "metadata": [
-        {
-          "label": {
-            "en": [
-              "Question opened by this object"
-            ]
-          },
-          "value": {
-            "en": [
-              "What makes education possible as an instrument of change? (provisional — no transcript available)"
-            ]
-          }
-        }
+  {
+    "label": {
+      "en": [
+        "Question opened by this object"
       ]
+    },
+    "value": {
+      "en": [
+        "What makes education possible as an instrument of change? (provisional – no transcript available)"
+      ]
+    }
+  },
+  {
+    "label": {
+      "en": [
+        "Video"
+      ]
+    },
+    "value": {
+      "en": [
+        "(Watch on YouTube)"
+      ]
+    }
+  }
+]
     },
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-08",
