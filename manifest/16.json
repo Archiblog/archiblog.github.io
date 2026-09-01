@@ -262,19 +262,31 @@
         }
       ],
       "metadata": [
-        {
-          "label": {
-            "en": [
-              "Question opened by this object"
-            ]
-          },
-          "value": {
-            "en": [
-              "How might we enrich and replenish the Commons?"
-            ]
-          }
-        }
+  {
+    "label": {
+      "en": [
+        "Question opened by this object"
       ]
+    },
+    "value": {
+      "en": [
+        "How might we enrich and replenish the Commons?"
+      ]
+    }
+  },
+  {
+    "label": {
+      "en": [
+        "Video"
+      ]
+    },
+    "value": {
+      "en": [
+        "(Watch on YouTube)"
+      ]
+    }
+  }
+]
     },
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-06",
