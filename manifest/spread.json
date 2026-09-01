@@ -1,0 +1,12 @@
+{
+  "@context": "https://iiif.io/api/presentation/3/context.json",
+
+  "id": "https://archiblog.github.io/manifest/manifest.json",
+
+  "type": "Manifest",
+
+  "label": {
+    "en": [
+      "Looking Up: Cedric Price and Norman Fellows"
+    ]
+  },
