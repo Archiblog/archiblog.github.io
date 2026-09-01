@@ -170,18 +170,6 @@
       },
       "width": 1600,
       "height": 900,
-      "homepage": [
-        {
-          "id": "https://www.youtube.com/watch?v=zvgC7uAIkt8",
-          "type": "Text",
-          "label": {
-            "en": [
-              "Watch video"
-            ]
-          },
-          "format": "text/html"
-        }
-      ],
       "items": [
         {
           "id": "https://archiblog.github.io/manifest/tile16-page-04",
@@ -204,19 +192,31 @@
         }
       ],
       "metadata": [
-        {
-          "label": {
-            "en": [
-              "Question opened by this object"
-            ]
-          },
-          "value": {
-            "en": [
-              "Under what conditions can a common good arise?"
-            ]
-          }
-        }
+  {
+    "label": {
+      "en": [
+        "Question opened by this object"
       ]
+    },
+    "value": {
+      "en": [
+        "Under what conditions can a common good arise?"
+      ]
+    }
+  },
+  {
+    "label": {
+      "en": [
+        "Video"
+      ]
+    },
+    "value": {
+      "en": [
+        "(Watch on YouTube)"
+      ]
+    }
+  }
+],
     },
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-05",
