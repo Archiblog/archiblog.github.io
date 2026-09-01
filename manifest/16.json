@@ -541,20 +541,32 @@
           ]
         }
       ],
-      "metadata": [
-        {
-          "label": {
-            "en": [
-              "Question opened by this object"
-            ]
-          },
-          "value": {
-            "en": [
-              "What human capacities do we need to change the world? (provisional — no transcript available)"
-            ]
-          }
-        }
+     "metadata": [
+  {
+    "label": {
+      "en": [
+        "Question opened by this object"
       ]
+    },
+    "value": {
+      "en": [
+        "What human capacities do we need to change the world? (provisional – no transcript available)"
+      ]
+    }
+  },
+  {
+    "label": {
+      "en": [
+        "Video"
+      ]
+    },
+    "value": {
+      "en": [
+        "(Watch on YouTube)"
+      ]
+    }
+  }
+]
     }
   ]
 }
