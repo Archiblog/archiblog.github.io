@@ -332,19 +332,31 @@
         }
       ],
       "metadata": [
-        {
-          "label": {
-            "en": [
-              "Question opened by this object"
-            ]
-          },
-          "value": {
-            "en": [
-              "What happens when the Commons becomes subject to ownership and exploitation?"
-            ]
-          }
-        }
+  {
+    "label": {
+      "en": [
+        "Question opened by this object"
       ]
+    },
+    "value": {
+      "en": [
+        "What happens when the Commons becomes subject to ownership and exploitation?"
+      ]
+    }
+  },
+  {
+    "label": {
+      "en": [
+        "Video"
+      ]
+    },
+    "value": {
+      "en": [
+        "(Watch on YouTube)"
+      ]
+    }
+  }
+]
     },
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-07",
