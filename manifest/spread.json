@@ -1,12 +1,71 @@
 {
   "@context": "https://iiif.io/api/presentation/3/context.json",
 
-  "id": "https://archiblog.github.io/manifest/manifest.json",
+  "id": "https://archiblog.github.io/manifest/spread.json",
 
   "type": "Manifest",
 
   "label": {
     "en": [
-      "Looking Up: Cedric Price and Norman Fellows"
+      "The Spread"
     ]
   },
+
+  "homepage": [
+    {
+      "id": "https://archiblog.github.io/index.html",
+      "type": "Text",
+      "label": {
+        "en": [
+          "Fantasia"
+        ]
+      },
+      "format": "text/html"
+    }
+  ],
+
+  "items": [
+    {
+      "id": "https://archiblog.github.io/manifest/spread-canvas-01",
+
+      "type": "Canvas",
+
+      "label": {
+        "en": [
+          "The Spread"
+        ]
+      },
+
+      "width": 3244,
+      "height": 2077,
+
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/spread-page-01",
+
+          "type": "AnnotationPage",
+
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/spread-annotation-01",
+
+              "type": "Annotation",
+
+              "motivation": "painting",
+
+              "body": {
+                "id": "https://archiblog.github.io/images/item_23593.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 3244,
+                "height": 2077
+              },
+
+              "target": "https://archiblog.github.io/manifest/spread-canvas-01"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
