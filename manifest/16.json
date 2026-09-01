@@ -472,19 +472,31 @@
         }
       ],
       "metadata": [
-        {
-          "label": {
-            "en": [
-              "Question opened by this object"
-            ]
-          },
-          "value": {
-            "en": [
-              "How can education create the capacity to act and to change the world?"
-            ]
-          }
-        }
+  {
+    "label": {
+      "en": [
+        "Question opened by this object"
       ]
+    },
+    "value": {
+      "en": [
+        "How can education create the capacity to act and to change the world?"
+      ]
+    }
+  },
+  {
+    "label": {
+      "en": [
+        "Video"
+      ]
+    },
+    "value": {
+      "en": [
+        "(Watch on YouTube)"
+      ]
+    }
+  }
+]
     },
     {
       "id": "https://archiblog.github.io/manifest/tile16-canvas-09",
