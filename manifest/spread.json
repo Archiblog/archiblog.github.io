@@ -25,9 +25,9 @@
   ],
 
   "items": [
+
     {
       "id": "https://archiblog.github.io/manifest/spread-canvas-01",
-
       "type": "Canvas",
 
       "label": {
@@ -42,15 +42,12 @@
       "items": [
         {
           "id": "https://archiblog.github.io/manifest/spread-page-01",
-
           "type": "AnnotationPage",
 
           "items": [
             {
               "id": "https://archiblog.github.io/manifest/spread-annotation-01",
-
               "type": "Annotation",
-
               "motivation": "painting",
 
               "body": {
@@ -66,6 +63,410 @@
           ]
         }
       ]
+    },
+
+    {
+      "id": "https://archiblog.github.io/manifest/spread-canvas-02",
+      "type": "Canvas",
+
+      "label": {
+        "en": [
+          "The Mantra"
+        ]
+      },
+
+      "width": 1064,
+      "height": 966,
+
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/spread-page-02",
+          "type": "AnnotationPage",
+
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/spread-annotation-02",
+              "type": "Annotation",
+              "motivation": "painting",
+
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27260.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 1064,
+                "height": 966
+              },
+
+              "target": "https://archiblog.github.io/manifest/spread-canvas-02"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "https://archiblog.github.io/manifest/spread-canvas-03",
+      "type": "Canvas",
+
+      "label": {
+        "en": [
+          "The Commons framing statement"
+        ]
+      },
+
+      "width": 1514,
+      "height": 196,
+
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/spread-page-03",
+          "type": "AnnotationPage",
+
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/spread-annotation-03",
+              "type": "Annotation",
+              "motivation": "painting",
+
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27261.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 1514,
+                "height": 196
+              },
+
+              "target": "https://archiblog.github.io/manifest/spread-canvas-03"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "https://archiblog.github.io/manifest/spread-canvas-04",
+      "type": "Canvas",
+
+      "label": {
+        "en": [
+          "The University provocation"
+        ]
+      },
+
+      "width": 2424,
+      "height": 698,
+
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/spread-page-04",
+          "type": "AnnotationPage",
+
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/spread-annotation-04",
+              "type": "Annotation",
+              "motivation": "painting",
+
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27262.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2424,
+                "height": 698
+              },
+
+              "target": "https://archiblog.github.io/manifest/spread-canvas-04"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "https://archiblog.github.io/manifest/spread-canvas-05",
+      "type": "Canvas",
+
+      "label": {
+        "en": [
+          "PROPOSITIONS"
+        ]
+      },
+
+      "width": 1958,
+      "height": 424,
+
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/spread-page-05",
+          "type": "AnnotationPage",
+
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/spread-annotation-05",
+              "type": "Annotation",
+              "motivation": "painting",
+
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27263.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 1958,
+                "height": 424
+              },
+
+              "target": "https://archiblog.github.io/manifest/spread-canvas-05"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "https://archiblog.github.io/manifest/spread-canvas-06",
+      "type": "Canvas",
+
+      "label": {
+        "en": [
+          "The Six Propositions — four boxes"
+        ]
+      },
+
+      "width": 5235,
+      "height": 3375,
+
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/spread-page-06",
+          "type": "AnnotationPage",
+
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/spread-annotation-06",
+              "type": "Annotation",
+              "motivation": "painting",
+
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27273.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 5235,
+                "height": 3375
+              },
+
+              "target": "https://archiblog.github.io/manifest/spread-canvas-06"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "https://archiblog.github.io/manifest/spread-canvas-07",
+      "type": "Canvas",
+
+      "label": {
+        "en": [
+          "The response to the propositions"
+        ]
+      },
+
+      "width": 1750,
+      "height": 444,
+
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/spread-page-07",
+          "type": "AnnotationPage",
+
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/spread-annotation-07",
+              "type": "Annotation",
+              "motivation": "painting",
+
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27264.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 1750,
+                "height": 444
+              },
+
+              "target": "https://archiblog.github.io/manifest/spread-canvas-07"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "https://archiblog.github.io/manifest/spread-canvas-08",
+      "type": "Canvas",
+
+      "label": {
+        "en": [
+          "The Collage"
+        ]
+      },
+
+      "width": 5950,
+      "height": 1317,
+
+      "homepage": [
+        {
+          "id": "https://archiblog.github.io/viewer-collage.html",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Open Collage Viewer"
+            ]
+          },
+          "format": "text/html"
+        }
+      ],
+
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/spread-page-08",
+          "type": "AnnotationPage",
+
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/spread-annotation-08",
+              "type": "Annotation",
+              "motivation": "painting",
+
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27276.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 5950,
+                "height": 1317
+              },
+
+              "target": "https://archiblog.github.io/manifest/spread-canvas-08"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "https://archiblog.github.io/manifest/spread-canvas-09",
+      "type": "Canvas",
+
+      "label": {
+        "en": [
+          "Photograph from travelling exhibition"
+        ]
+      },
+
+      "width": 3072,
+      "height": 2304,
+
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/spread-page-09",
+          "type": "AnnotationPage",
+
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/spread-annotation-09",
+              "type": "Annotation",
+              "motivation": "painting",
+
+              "body": {
+                "id": "https://archiblog.github.io/images/item_09871.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 3072,
+                "height": 2304
+              },
+
+              "target": "https://archiblog.github.io/manifest/spread-canvas-09"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "https://archiblog.github.io/manifest/spread-canvas-10",
+      "type": "Canvas",
+
+      "label": {
+        "en": [
+          "The Table"
+        ]
+      },
+
+      "width": 542,
+      "height": 769,
+
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/spread-page-10",
+          "type": "AnnotationPage",
+
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/spread-annotation-10",
+              "type": "Annotation",
+              "motivation": "painting",
+
+              "body": {
+                "id": "https://archiblog.github.io/images/item_01651.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 542,
+                "height": 769
+              },
+
+              "target": "https://archiblog.github.io/manifest/spread-canvas-10"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "https://archiblog.github.io/manifest/spread-canvas-11",
+      "type": "Canvas",
+
+      "label": {
+        "en": [
+          "Floorplan — freeform labels"
+        ]
+      },
+
+      "width": 5236,
+      "height": 3375,
+
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/spread-page-11",
+          "type": "AnnotationPage",
+
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/spread-annotation-11",
+              "type": "Annotation",
+              "motivation": "painting",
+
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27271.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 5236,
+                "height": 3375
+              },
+
+              "target": "https://archiblog.github.io/manifest/spread-canvas-11"
+            }
+          ]
+        }
+      ]
     }
+
   ]
 }
