@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Spread</title>
 
 <style>
@@ -20,7 +19,6 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  /* Spread navigation — deliberately independent of Mirador */
   #spread-navigation {
     position: fixed;
     top: 0;
@@ -42,17 +40,9 @@
     align-items: center;
   }
 
-  #spread-navigation .left {
-    justify-self: start;
-  }
-
-  #spread-navigation .centre {
-    justify-self: center;
-  }
-
-  #spread-navigation .right {
-    justify-self: end;
-  }
+  #spread-navigation .left { justify-self: start; }
+  #spread-navigation .centre { justify-self: center; }
+  #spread-navigation .right { justify-self: end; }
 
   #spread-navigation a {
     color: #fff;
@@ -66,7 +56,6 @@
     text-decoration: underline;
   }
 
-  /* Mirador occupies everything below the navigation */
   #mirador {
     position: fixed !important;
     top: 42px !important;
@@ -78,38 +67,30 @@
     z-index: 1;
   }
 
-  /* Spread experiment: hide the redundant Canvas label */
   .mirador-canvas-label {
     display: none !important;
   }
 </style>
 
 <script src="https://unpkg.com/mirador@4.1.0/dist/mirador.min.js"></script>
-
 </head>
 
 <body>
 
 <header id="spread-navigation" aria-label="Spread navigation">
-
   <nav>
     <div class="left">
       <a href="index.html">← Fantasia</a>
     </div>
 
     <div class="centre">
-      <a href="#" aria-label="Spread">
-        Spread
-      </a>
+      <a href="#" aria-label="Spread">Spread</a>
     </div>
 
     <div class="right">
-      <a href="#" aria-label="Catalogue placeholder">
-        Catalogue →
-      </a>
+      <a href="#" aria-label="Catalogue placeholder">Catalogue →</a>
     </div>
   </nav>
-
 </header>
 
 <main id="mirador" aria-label="Spread Viewer"></main>
@@ -128,7 +109,6 @@
         annotations: true
       }
     }],
-
     workspace: {
       type: 'mosaic'
     }
@@ -137,21 +117,16 @@
   /*
    * Object 8 — The Collage
    *
-   * The Spread manifest already identifies the Collage Canvas
-   * and supplies viewer-collage.html as its homepage. Mirador does
-   * not, however, make the Canvas image itself an external link.
-   *
-   * Event delegation keeps this working as Mirador creates and
-   * recreates its image elements dynamically.
+   * Mirador dynamically creates its image elements, so use
+   * delegated click handling. Only item_27276 is targeted.
    */
   document.addEventListener('click', function (event) {
     const image = event.target.closest('img');
-
     if (!image) return;
 
     const source = image.currentSrc || image.src || '';
 
-    if (source.includes('/images/item_27276.png')) {
+    if (source.indexOf('/images/item_27276.png') !== -1) {
       event.preventDefault();
       event.stopPropagation();
       window.location.href = 'viewer-collage.html';
