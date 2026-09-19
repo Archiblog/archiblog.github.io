@@ -82,7 +82,6 @@
   .mirador-canvas-label {
     display: none !important;
   }
-  
 </style>
 
 <script src="https://unpkg.com/mirador@4.1.0/dist/mirador.min.js"></script>
@@ -94,7 +93,6 @@
 <header id="spread-navigation" aria-label="Spread navigation">
 
   <nav>
-
     <div class="left">
       <a href="index.html">← Fantasia</a>
     </div>
@@ -110,7 +108,6 @@
         Catalogue →
       </a>
     </div>
-
   </nav>
 
 </header>
@@ -120,7 +117,6 @@
 <script>
   Mirador.viewer({
     id: 'mirador',
-
     windows: [{
       manifestId: 'https://archiblog.github.io/manifest/spread.json',
       sideBarOpen: true,
@@ -137,7 +133,31 @@
       type: 'mosaic'
     }
   });
-  
+
+  /*
+   * Object 8 — The Collage
+   *
+   * The Spread manifest already identifies the Collage Canvas
+   * and supplies viewer-collage.html as its homepage. Mirador does
+   * not, however, make the Canvas image itself an external link.
+   *
+   * Event delegation keeps this working as Mirador creates and
+   * recreates its image elements dynamically.
+   */
+  document.addEventListener('click', function (event) {
+    const image = event.target.closest('img');
+
+    if (!image) return;
+
+    const source = image.currentSrc || image.src || '';
+
+    if (source.includes('/images/item_27276.png')) {
+      event.preventDefault();
+      event.stopPropagation();
+      window.location.href = 'viewer-collage.html';
+    }
+  }, true);
 </script>
+
 </body>
 </html>
