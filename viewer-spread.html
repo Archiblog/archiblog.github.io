@@ -113,26 +113,10 @@
       type: 'mosaic'
     }
   });
-
-  /*
-   * Object 8 — The Collage
-   *
-   * Mirador dynamically creates its image elements, so use
-   * delegated click handling. Only item_27276 is targeted.
-   */
-  document.addEventListener('click', function (event) {
-    const image = event.target.closest('img');
-    if (!image) return;
-
-    const source = image.currentSrc || image.src || '';
-
-    if (source.indexOf('/images/item_27276.png') !== -1) {
-      event.preventDefault();
-      event.stopPropagation();
-      window.location.href = 'viewer-collage.html';
-    }
-  }, true);
 </script>
+
+</body>
+</html>
 
 </body>
 </html>
