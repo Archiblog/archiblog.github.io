@@ -115,6 +115,20 @@
   });
 </script>
 
+ <script>
+  document.addEventListener('click', function (event) {
+    const item = event.target.closest('[role="menuitem"]');
+
+    if (!item) return;
+
+    if (item.textContent.trim() === 'The Collage ↗') {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      window.location.href = 'viewer-collage.html';
+    }
+  }, true);
+</script> 
+
 </body>
 </html>
 
