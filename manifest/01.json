@@ -1,0 +1,288 @@
+{
+  "@context": "https://iiif.io/api/presentation/3/context.json",
+
+  "id": "https://archiblog.github.io/manifest/manifest.json",
+
+  "type": "Manifest",
+
+  "label": {
+    "en": [
+      "Looking Up"
+    ]
+  },
+
+  "homepage": [
+    {
+      "id": "https://archiblog.wordpress.com/",
+      "type": "Text",
+      "label": {
+        "en": [
+          "Archiblog"
+        ]
+      },
+      "format": "text/html"
+    }
+  ],
+
+  "items": [
+    {
+      "id": "https://archiblog.github.io/manifest/canvas-01",
+
+      "type": "Canvas",
+
+      "label": {
+        "en": [
+          "item_13831"
+        ]
+      },
+
+      "width": 1536,
+      "height": 2048,
+
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "23 December 2014"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Circumstances"
+            ]
+          },
+          "value": {
+            "en": [
+              "Taken during a visit to Cedric Price: Outside the Box, an exhibition of Cedric Price's work at St John's College, Cambridge."
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Photographer"
+            ]
+          },
+          "value": {
+            "en": [
+              "Patricia Fellows"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Permission"
+            ]
+          },
+          "value": {
+            "en": [
+              "CC BY 4.0"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Archiblog"
+            ]
+          },
+          "value": {
+            "en": [
+              "Used as the opening image on Archiblog since 11 September 2021, Cedric Price's birthday."
+            ]
+          }
+        }
+      ],
+
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Permission"
+          ]
+        },
+        "value": {
+          "en": [
+            "Reproduced with permission."
+          ]
+        }
+      },
+
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/page-01",
+
+          "type": "AnnotationPage",
+
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/annotation-01",
+
+              "type": "Annotation",
+
+              "motivation": "painting",
+
+              "body": {
+                "id": "https://archiblog.github.io/images/item_13831.jpg",
+
+                "type": "Image",
+
+                "format": "image/jpeg",
+
+                "width": 1536,
+                "height": 2048
+              },
+
+              "target": "https://archiblog.github.io/manifest/canvas-01"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "https://archiblog.github.io/manifest/canvas-02",
+
+      "type": "Canvas",
+
+      "label": {
+        "en": [
+          "Cedric Price and Rice students"
+        ]
+      },
+
+      "width": 620,
+      "height": 392,
+
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/page-02",
+
+          "type": "AnnotationPage",
+
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/annotation-02",
+
+              "type": "Annotation",
+
+              "motivation": "painting",
+
+              "body": {
+                "id": "https://archiblog.github.io/images/item_10683.jpg",
+
+                "type": "Image",
+
+                "format": "image/jpeg",
+
+                "width": 620,
+                "height": 392
+              },
+
+              "target": "https://archiblog.github.io/manifest/canvas-02"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "https://archiblog.github.io/manifest/canvas-03",
+
+      "type": "Canvas",
+
+      "label": {
+        "en": [
+          "Altered Rice photograph"
+        ]
+      },
+
+      "width": 640,
+      "height": 480,
+
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/page-03",
+
+          "type": "AnnotationPage",
+
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/annotation-03",
+
+              "type": "Annotation",
+
+              "motivation": "painting",
+
+              "body": {
+                "id": "https://archiblog.github.io/images/item_10687.png",
+
+                "type": "Image",
+
+                "format": "image/png",
+
+                "width": 640,
+                "height": 480
+              },
+
+              "target": "https://archiblog.github.io/manifest/canvas-03"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "https://archiblog.github.io/manifest/canvas-04",
+
+      "type": "Canvas",
+
+      "label": {
+        "en": [
+          "Edukit Fantasia"
+        ]
+      },
+
+      "width": 2792,
+      "height": 3600,
+
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/page-04",
+
+          "type": "AnnotationPage",
+
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/annotation-04",
+
+              "type": "Annotation",
+
+              "motivation": "painting",
+
+              "body": {
+                "id": "https://archiblog.github.io/images/item_10787.png",
+
+                "type": "Image",
+
+                "format": "image/png",
+
+                "width": 2792,
+                "height": 3600
+              },
+
+              "target": "https://archiblog.github.io/manifest/canvas-04"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
