@@ -66,28 +66,20 @@
     text-decoration: underline;
   }
 
-  /* Single image viewer */
-  #medikit-viewer {
-    position: fixed;
-    top: 42px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #000;
-  }
-
-  #medikit-viewer img {
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-    object-fit: contain;
+  /* Mirador occupies everything below the navigation */
+  #mirador {
+    position: fixed !important;
+    top: 42px !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: auto !important;
+    height: auto !important;
+    z-index: 1;
   }
 </style>
+
+<script src="https://unpkg.com/mirador@4.1.0/dist/mirador.min.js"></script>
 
 </head>
 
@@ -115,13 +107,29 @@
   </nav>
 </header>
 
-<main id="medikit-viewer" aria-label="Tile 01 Viewer">
+<main id="mirador" aria-label="Tile 01 Viewer"></main>
 
-  <img
-    src="images/item_27314.png"
-    alt="Medikit">
+<script>
+  Mirador.viewer({
+    id: 'mirador',
 
-</main>
+    windows: [{
+      manifestId: 'https://archiblog.github.io/manifest/01.json',
+      sideBarOpen: true,
+      allowClose: false,
+      panels: {
+        info: true,
+        attribution: true,
+        canvas: true,
+        annotations: true
+      }
+    }],
+
+    workspace: {
+      type: 'mosaic'
+    }
+  });
+</script>
 
 </body>
 </html>
