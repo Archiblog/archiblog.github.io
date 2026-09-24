@@ -1,0 +1,96 @@
+{
+  "@context": "https://iiif.io/api/presentation/3/context.json",
+  "id": "https://archiblog.github.io/manifest/17.json",
+  "type": "Manifest",
+  "label": {"en": ["MAGNET II"]},
+  "homepage": [
+    {
+      "id": "https://archiblog.github.io/index.html",
+      "type": "Text",
+      "label": {"en": ["Fantasia"]},
+      "format": "text/html"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://archiblog.github.io/manifest/tile17-canvas-01",
+      "type": "Canvas",
+      "label": {"en": ["Cedric Price — Typical Progress Chart"]},
+      "width": 2048,
+      "height": 1446,
+      "items": [{"id": "https://archiblog.github.io/manifest/tile17-page-01", "type": "AnnotationPage", "items": [{"id": "https://archiblog.github.io/manifest/tile17-annotation-01", "type": "Annotation", "motivation": "painting", "body": {"id": "https://archiblog.github.io/images/item_27029%20cp-progress-chart-facsimile(3).png", "type": "Image", "format": "image/png", "width": 2048, "height": 1446}, "target": "https://archiblog.github.io/manifest/tile17-canvas-01"}]}]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/tile17-canvas-02",
+      "type": "Canvas",
+      "label": {"en": ["Blank version"]},
+      "width": 2048,
+      "height": 1446,
+      "items": [{"id": "https://archiblog.github.io/manifest/tile17-page-02", "type": "AnnotationPage", "items": [{"id": "https://archiblog.github.io/manifest/tile17-annotation-02", "type": "Annotation", "motivation": "painting", "body": {"id": "https://archiblog.github.io/images/item_27031%20cp-progress-chart-blank(1).png", "type": "Image", "format": "image/png", "width": 2048, "height": 1446}, "target": "https://archiblog.github.io/manifest/tile17-canvas-02"}]}]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/tile17-canvas-03",
+      "type": "Canvas",
+      "label": {"en": ["Working draft"]},
+      "width": 2048,
+      "height": 1446,
+      "items": [{"id": "https://archiblog.github.io/manifest/tile17-page-03", "type": "AnnotationPage", "items": [{"id": "https://archiblog.github.io/manifest/tile17-annotation-03", "type": "Annotation", "motivation": "painting", "body": {"id": "https://archiblog.github.io/images/item_27033%20cp-progress-chart-working-draft.png", "type": "Image", "format": "image/png", "width": 2048, "height": 1446}, "target": "https://archiblog.github.io/manifest/tile17-canvas-03"}]}]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/tile17-canvas-04",
+      "type": "Canvas",
+      "label": {"en": ["MAGNET II — Playing Field — State 0"]},
+      "width": 2048,
+      "height": 1446,
+      "items": [{"id": "https://archiblog.github.io/manifest/tile17-page-04", "type": "AnnotationPage", "items": [{"id": "https://archiblog.github.io/manifest/tile17-annotation-04", "type": "Annotation", "motivation": "painting", "body": {"id": "https://archiblog.github.io/images/item_27293(2).png", "type": "Image", "format": "image/png", "width": 2048, "height": 1446}, "target": "https://archiblog.github.io/manifest/tile17-canvas-04"}]}]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/tile17-canvas-05",
+      "type": "Canvas",
+      "label": {"en": ["MAGNET II — Systems Diagram — Board: State 0"]},
+      "width": 2048,
+      "height": 1446,
+      "items": [{"id": "https://archiblog.github.io/manifest/tile17-page-05", "type": "AnnotationPage", "items": [{"id": "https://archiblog.github.io/manifest/tile17-annotation-05", "type": "Annotation", "motivation": "painting", "body": {"id": "https://archiblog.github.io/images/item_27294(2).png", "type": "Image", "format": "image/png", "width": 2048, "height": 1446}, "target": "https://archiblog.github.io/manifest/tile17-canvas-05"}]}]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/tile17-canvas-06",
+      "type": "Canvas",
+      "label": {"en": ["MAGNET II — Systems Diagram — Board: State 1"]},
+      "width": 2048,
+      "height": 1446,
+      "items": [{"id": "https://archiblog.github.io/manifest/tile17-page-06", "type": "AnnotationPage", "items": [{"id": "https://archiblog.github.io/manifest/tile17-annotation-06", "type": "Annotation", "motivation": "painting", "body": {"id": "https://archiblog.github.io/images/item_27295(1).png", "type": "Image", "format": "image/png", "width": 2048, "height": 1446}, "target": "https://archiblog.github.io/manifest/tile17-canvas-06"}]}]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/tile17-canvas-07",
+      "type": "Canvas",
+      "label": {"en": ["MAGNET II — Systems Diagram — Reference State / State 05"]},
+      "width": 2048,
+      "height": 1446,
+      "items": [{"id": "https://archiblog.github.io/manifest/tile17-page-07", "type": "AnnotationPage", "items": [{"id": "https://archiblog.github.io/manifest/tile17-annotation-07", "type": "Annotation", "motivation": "painting", "body": {"id": "https://archiblog.github.io/images/item_27296(1).png", "type": "Image", "format": "image/png", "width": 2048, "height": 1446}, "target": "https://archiblog.github.io/manifest/tile17-canvas-07"}]}]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/tile17-canvas-08",
+      "type": "Canvas",
+      "label": {"en": ["MAGNET II — Physical apparatus"]},
+      "width": 1600,
+      "height": 1200,
+      "items": [{"id": "https://archiblog.github.io/manifest/tile17-page-08", "type": "AnnotationPage", "items": [{"id": "https://archiblog.github.io/manifest/tile17-annotation-08", "type": "Annotation", "motivation": "painting", "body": {"id": "https://archiblog.github.io/images/item_27282%20(1).png", "type": "Image", "format": "image/png", "width": 1600, "height": 1200}, "target": "https://archiblog.github.io/manifest/tile17-canvas-08"}]}]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/tile17-canvas-09",
+      "type": "Canvas",
+      "label": {"en": ["MAGNET II — Ruler / magnet"]},
+      "width": 1600,
+      "height": 1200,
+      "items": [{"id": "https://archiblog.github.io/manifest/tile17-page-09", "type": "AnnotationPage", "items": [{"id": "https://archiblog.github.io/manifest/tile17-annotation-09", "type": "Annotation", "motivation": "painting", "body": {"id": "https://archiblog.github.io/images/item_27284%20(1).png", "type": "Image", "format": "image/png", "width": 1600, "height": 1200}, "target": "https://archiblog.github.io/manifest/tile17-canvas-09"}]}]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/tile17-canvas-10",
+      "type": "Canvas",
+      "label": {"en": ["MAGNET II — Physical board / magnets"]},
+      "width": 1600,
+      "height": 1200,
+      "items": [{"id": "https://archiblog.github.io/manifest/tile17-page-10", "type": "AnnotationPage", "items": [{"id": "https://archiblog.github.io/manifest/tile17-annotation-10", "type": "Annotation", "motivation": "painting", "body": {"id": "https://archiblog.github.io/images/item_27289%20(1).png", "type": "Image", "format": "image/png", "width": 1600, "height": 1200}, "target": "https://archiblog.github.io/manifest/tile17-canvas-10"}]}]
+    }
+  ]
+}
