@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>04 — Thinkbelt Development</title>
+<style>
+  :root{--red:#ff1616;--white:#f7f7f7;--black:#050505;--muted:#a8a8a8;}
+  *{box-sizing:border-box}
+  html,body{margin:0;width:100%;height:100%;overflow:hidden;background:var(--black);font-family:Arial,Helvetica,sans-serif;color:var(--white)}
+  body{user-select:none}
+  #viewport{position:fixed;inset:0;overflow:hidden;cursor:grab;background:#050505}
+  #viewport.dragging{cursor:grabbing}
+  #board{position:absolute;left:0;top:0;width:2800px;height:1650px;transform-origin:0 0}
+  .item{position:absolute;display:block;margin:0;padding:0;border:0;background:none;color:inherit;text-decoration:none;cursor:pointer;transition:filter .18s,transform .18s;z-index:2}
+  .item:hover{filter:brightness(1.1);z-index:20}
+  .item img{display:block;width:100%;height:auto;border-radius:2px;box-shadow:0 14px 34px rgba(0,0,0,.48)}
+  .document img{box-shadow:0 18px 38px rgba(0,0,0,.55)}
+  .label{position:absolute;left:0;bottom:-42px;font-size:13px;line-height:1.15;letter-spacing:.06em;text-transform:uppercase;color:#ddd;white-space:nowrap;pointer-events:none}
+  .label b{color:var(--red);font-size:15px;margin-right:7px}
+  .cluster{z-index:4}
+  .cluster .item{position:absolute}
+  .cluster .item img{box-shadow:0 16px 35px rgba(0,0,0,.5)}
+  .cluster .item:nth-child(1){transform:rotate(-4deg)}
+  .cluster .item:nth-child(2){transform:rotate(2deg)}
+  .cluster .item:nth-child(3){transform:rotate(-1deg)}
+  .cluster .item:nth-child(4){transform:rotate(4deg)}
+  .cluster .item:nth-child(5){transform:rotate(-2deg)}
+
+  /* canvas title */
+  #title{position:absolute;left:80px;top:55px;z-index:50;pointer-events:none}
+  #title .number{font-size:112px;font-weight:800;line-height:.78;color:var(--red);letter-spacing:-.08em}
+  #title .words{position:absolute;left:105px;top:3px;font-size:30px;font-weight:700;line-height:1.02;letter-spacing:.02em;text-transform:uppercase}
+  #title .sub{margin-top:18px;color:#aaa;font-size:12px;letter-spacing:.16em;text-transform:uppercase}
+
+  /* red route / nodes */
+  .node{position:absolute;width:16px;height:16px;border-radius:50%;background:var(--red);box-shadow:0 0 0 5px rgba(255,22,22,.08);z-index:1}
+  .route{position:absolute;height:1px;background:#777;transform-origin:left center;opacity:.7;z-index:1}
+  .route.dashed{background:repeating-linear-gradient(to right,#888 0 7px,transparent 7px 14px)}
+
+  /* EDUKIT threshold */
+  #edukit{position:absolute;left:2460px;top:1240px;width:250px;height:250px;border:10px solid var(--red);background:#f4f4f4;color:#d71920;transform:rotate(-2deg);box-shadow:0 18px 40px rgba(0,0,0,.55);z-index:15;display:flex;align-items:center;justify-content:center;text-align:center;text-decoration:none}
+  #edukit:before{content:"";position:absolute;inset:10px;border:2px solid #d71920}
+  #edukit .stamp{position:relative;font-weight:800;line-height:.9}
+  #edukit .stamp .big{font-size:42px;letter-spacing:-.05em}
+  #edukit .stamp .small{font-size:10px;letter-spacing:.12em;margin-top:13px}
+  #edukit .stamp .globe{font-size:42px;line-height:1;margin:8px 0}
+  #edukit .caption{position:absolute;top:264px;left:0;color:#ddd;font-size:13px;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap}
+  #edukit .caption b{color:var(--red);font-size:15px;margin-right:7px}
+
+  /* index */
+  #index{position:fixed;right:24px;top:24px;width:245px;max-height:calc(100vh - 48px);overflow:auto;padding:18px 18px 16px;background:rgba(0,0,0,.84);border:1px solid #303030;z-index:100;backdrop-filter:blur(7px)}
+  #index h2{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#999;margin:0 0 12px}
+  #index a{display:block;color:#ddd;text-decoration:none;font-size:12px;line-height:1.25;padding:6px 0;border-top:1px solid #202020}
+  #index a:first-of-type{border-top:0}
+  #index a:hover{color:white}
+  #index .n{display:inline-block;width:24px;color:var(--red);font-weight:700}
+  #controls{position:fixed;left:24px;bottom:24px;z-index:100;display:flex;gap:6px}
+  #controls button{width:34px;height:34px;border:1px solid #444;background:rgba(0,0,0,.78);color:white;font-size:18px;cursor:pointer}
+  #controls button:hover{border-color:#aaa}
+  #hint{position:fixed;left:76px;bottom:31px;color:#777;font-size:11px;letter-spacing:.08em;text-transform:uppercase;z-index:100;pointer-events:none}
+
+  /* detail modal */
+  #modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:200;padding:55px;align-items:center;justify-content:center}
+  #modal.open{display:flex}
+  #modalBox{max-width:min(1200px,92vw);max-height:90vh;position:relative;text-align:center}
+  #modalImg{max-width:100%;max-height:78vh;display:block;margin:auto;box-shadow:0 20px 60px rgba(0,0,0,.7)}
+  #modalTitle{margin-top:14px;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#ddd}
+  #close{position:absolute;right:-42px;top:-35px;border:0;background:none;color:white;font-size:30px;cursor:pointer}
+  #modalLink{display:inline-block;margin-top:10px;color:var(--red);font-size:12px;text-decoration:none;letter-spacing:.08em;text-transform:uppercase}
+
+  @media(max-width:800px){
+    #index{width:205px;right:12px;top:12px;max-height:46vh}
+    #title{left:30px;top:28px;transform:scale(.72);transform-origin:top left}
+    #hint{display:none}
+  }
+</style>
+</head>
+<body>
+<div id="viewport">
+  <div id="board">
+    <div id="title"><div class="number">04</div><div class="words">Thinkbelt<br>Development</div><div class="sub">A field of propositions, documents, territory and movement</div></div>
+
+    <!-- loose connective field -->
+    <div class="route dashed" style="left:650px;top:390px;width:270px;transform:rotate(-18deg)"></div>
+    <div class="route dashed" style="left:930px;top:305px;width:300px;transform:rotate(8deg)"></div>
+    <div class="route dashed" style="left:1210px;top:345px;width:300px;transform:rotate(18deg)"></div>
+    <div class="route dashed" style="left:420px;top:700px;width:530px;transform:rotate(10deg)"></div>
+    <div class="route dashed" style="left:1020px;top:750px;width:480px;transform:rotate(-18deg)"></div>
+    <div class="route dashed" style="left:1510px;top:700px;width:500px;transform:rotate(14deg)"></div>
+    <div class="route dashed" style="left:590px;top:1160px;width:450px;transform:rotate(-8deg)"></div>
+    <div class="route dashed" style="left:1050px;top:1110px;width:500px;transform:rotate(7deg)"></div>
+    <div class="route dashed" style="left:1510px;top:1110px;width:600px;transform:rotate(9deg)"></div>
+
+    <!-- ENTRY -->
+    <a class="item" id="i16299" href="#" data-title="ENTRY — Dukeries Thinkbelt Study 2015" data-src="images/item_16299.png" style="left:110px;top:230px;width:520px">
+      <img src="images/item_16299.png" alt="Dukeries Thinkbelt Study 2015">
+      <span class="label"><b>01</b>Entry / Dukeries Thinkbelt 2015</span>
+    </a>
+
+    <!-- ORIGIN -->
+    <a class="item document" id="i25346" href="#" data-title="ORIGIN — Potteries Thinkbelt report, February 1966" data-src="images/item_25346.png" style="left:760px;top:155px;width:270px">
+      <img src="images/item_25346.png" alt="Potteries Thinkbelt report, February 1966">
+      <span class="label"><b>02</b>Origin / February 1966 report</span>
+    </a>
+
+    <!-- DOCUMENT CLUSTER -->
+    <div class="cluster" style="left:1080px;top:125px;width:760px;height:520px">
+      <a class="item document" href="#" data-title="PTb archive drawing — 01" data-src="images/item_25161.png" style="left:0;top:35px;width:220px"><img src="images/item_25161.png" alt="PTb archive drawing 01"></a>
+      <a class="item document" href="#" data-title="PTb archive drawing — 02" data-src="images/item_25169.png" style="left:125px;top:5px;width:220px"><img src="images/item_25169.png" alt="PTb archive drawing 02"></a>
+      <a class="item document" href="#" data-title="PTb archive drawing — 03" data-src="images/item_25170.png" style="left:265px;top:45px;width:220px"><img src="images/item_25170.png" alt="PTb archive drawing 03"></a>
+      <a class="item document" href="#" data-title="PTb archive drawing — 04" data-src="images/item_25171.png" style="left:385px;top:10px;width:220px"><img src="images/item_25171.png" alt="PTb archive drawing 04"></a>
+      <a class="item document" href="#" data-title="PTb archive drawing — 05" data-src="images/item_25172.png" style="left:515px;top:60px;width:220px"><img src="images/item_25172.png" alt="PTb archive drawing 05"></a>
+      <div class="label" style="left:0;bottom:-18px"><b>03</b>Documents / specification</div>
+    </div>
+
+    <!-- PUBLIC ENCOUNTER / AD / DWELLING -->
+    <a class="item document" id="i25538" href="#" data-title="TERRITORY — Interactive PTb map" data-src="images/item_25538.png" style="left:1920px;top:360px;width:480px">
+      <img src="images/item_25538.png" alt="Interactive PTb map">
+      <span class="label"><b>07</b>Territory / interactive PTb map</span>
+    </a>
+
+    <a class="item document" id="i25193" href="#" data-title="ARCHITECTURAL ARGUMENT — Life-conditioning, AD/10/66" data-src="images/item_25193.png" style="left:700px;top:690px;width:250px">
+      <img src="images/item_25193.png" alt="Life-conditioning, Architectural Design October 1966">
+      <span class="label"><b>05</b>Architectural argument / Life-conditioning</span>
+    </a>
+
+    <a class="item document" id="i25161x" href="#" data-title="PTb documentary material" data-src="images/item_25161.png" style="display:none"></a>
+
+    <a class="item document" id="i25169x" href="#" data-title="PUBLIC ENCOUNTER — New Society, June 1966" data-src="images/item_25169.png" style="display:none"></a>
+
+    <!-- A quiet public-encounter marker, using one document in the field -->
+    <div style="position:absolute;left:110px;top:720px;width:390px;color:#ddd">
+      <div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--red);margin-bottom:8px">04 / Public encounter</div>
+      <div style="font-size:20px;line-height:1.1">New Society<br><span style="color:#888">June 1966</span></div>
+    </div>
+
+    <!-- DWELLING: use the most visually suitable portrait as a documentary threshold -->
+    <a class="item document" id="i25172dw" href="#" data-title="DWELLING — Price's PTb housing studies" data-src="images/item_25172.png" style="left:1030px;top:650px;width:300px;transform:rotate(-2deg)">
+      <img src="images/item_25172.png" alt="Price's PTb housing studies">
+      <span class="label"><b>06</b>Dwelling / PTb housing studies</span>
+    </a>
+
+    <!-- MOVEMENT -->
+    <a class="item" id="i27317" href="#" data-title="THINKBELT MOVES — From the Potteries to the Dukeries" data-src="images/item_27317.png" style="left:110px;top:1080px;width:560px;transform:rotate(-3deg)">
+      <img src="images/item_27317.png" alt="Thinkbelt Moves — From the Potteries to the Dukeries">
+      <span class="label"><b>08</b>Movement / Potteries → Dukeries</span>
+    </a>
+
+    <a class="item" id="i27316" href="#" data-title="CULMINATION — VID_0570: Dukeries Thinkbelt" data-src="images/item_27316.png" style="left:690px;top:1030px;width:470px;transform:rotate(2deg)">
+      <img src="images/item_27316.png" alt="Dukeries Thinkbelt video still">
+      <span class="label"><b>09</b>Culmination / VID_0570</span>
+    </a>
+
+    <a class="item" id="i27315" href="#" data-title="MOVEMENT — video still" data-src="images/item_27315.png" style="left:1210px;top:1110px;width:430px;transform:rotate(-2deg)">
+      <img src="images/item_27315.png" alt="Thinkbelt video still">
+      <span class="label"><b>11</b>Movement / video</span>
+    </a>
+
+    <!-- SYSTEM / SPECIFICATION -->
+    <a class="item document" id="i25538b" href="#" data-title="SYSTEM / SPECIFICATION — General Index: Drawings" data-src="images/item_25538.png" style="left:1680px;top:930px;width:270px;transform:rotate(2deg)">
+      <img src="images/item_25538.png" alt="General Index drawings">
+      <span class="label"><b>10</b>System / specification</span>
+    </a>
+
+    <!-- EDUKIT threshold -->
+    <a id="edukit" href="viewer-spread.html" aria-label="Open EDUKIT Spread">
+      <div class="stamp"><div class="big">EDUKIT</div><div class="globe">◎</div><div class="small">WORLD EDUCATIONAL SYSTEM</div></div>
+      <span class="caption"><b>12</b>Forward development / EDUKIT</span>
+    </a>
+  </div>
+</div>
+
+<nav id="index" aria-label="Viewer index">
+  <h2>Thinkbelt Development</h2>
+  <a href="#" data-target="i16299"><span class="n">01</span>Entry — DTb 2015</a>
+  <a href="#" data-target="i25346"><span class="n">02</span>Origin — February 1966</a>
+  <a href="#" data-target="i25161"><span class="n">03</span>Documents / specification</a>
+  <a href="#" data-target="i25169x"><span class="n">04</span>Public encounter</a>
+  <a href="#" data-target="i25193"><span class="n">05</span>Architectural argument</a>
+  <a href="#" data-target="i25172dw"><span class="n">06</span>Dwelling</a>
+  <a href="#" data-target="i25538"><span class="n">07</span>Territory</a>
+  <a href="#" data-target="i27317"><span class="n">08</span>Thinkbelt Moves</a>
+  <a href="#" data-target="i27316"><span class="n">09</span>Culmination</a>
+  <a href="#" data-target="i25538b"><span class="n">10</span>System / specification</a>
+  <a href="#" data-target="i27315"><span class="n">11</span>Movement</a>
+  <a href="viewer-spread.html"><span class="n">12</span>EDUKIT → Spread</a>
+</nav>
+<div id="controls"><button id="minus" aria-label="Zoom out">−</button><button id="reset" aria-label="Reset view">0</button><button id="plus" aria-label="Zoom in">+</button></div>
+<div id="hint">drag to move · wheel to zoom · click an object to inspect</div>
+
+<div id="modal" role="dialog" aria-modal="true" aria-label="Image detail">
+  <div id="modalBox"><button id="close" aria-label="Close">×</button><img id="modalImg" alt=""><div id="modalTitle"></div><a id="modalLink" href="#">open full image</a></div>
+</div>
+
+<script>
+(() => {
+  const viewport=document.getElementById('viewport');
+  const board=document.getElementById('board');
+  let scale=0.72, x=-20, y=-10, dragging=false, sx=0, sy=0, ox=0, oy=0;
+  function apply(){board.style.transform=`translate(${x}px,${y}px) scale(${scale})`;}
+  function zoomAt(factor,cx=innerWidth/2,cy=innerHeight/2){
+    const old=scale, next=Math.max(.38,Math.min(1.35,old*factor));
+    x=cx-(cx-x)*(next/old); y=cy-(cy-y)*(next/old); scale=next; apply();
+  }
+  viewport.addEventListener('pointerdown',e=>{ if(e.target.closest('.item,#edukit,#index,#controls')) return; dragging=true; viewport.classList.add('dragging'); sx=e.clientX; sy=e.clientY; ox=x; oy=y; viewport.setPointerCapture(e.pointerId); });
+  viewport.addEventListener('pointermove',e=>{if(!dragging)return; x=ox+e.clientX-sx; y=oy+e.clientY-sy; apply();});
+  viewport.addEventListener('pointerup',()=>{dragging=false;viewport.classList.remove('dragging');});
+  viewport.addEventListener('pointercancel',()=>{dragging=false;viewport.classList.remove('dragging');});
+  viewport.addEventListener('wheel',e=>{e.preventDefault();zoomAt(e.deltaY<0?1.08:.925,e.clientX,e.clientY);},{passive:false});
+  document.getElementById('plus').onclick=()=>zoomAt(1.15); document.getElementById('minus').onclick=()=>zoomAt(.87);
+  document.getElementById('reset').onclick=()=>{scale=.72;x=-20;y=-10;apply();};
+
+  const modal=document.getElementById('modal'), img=document.getElementById('modalImg'), title=document.getElementById('modalTitle'), link=document.getElementById('modalLink');
+  document.querySelectorAll('.item').forEach(el=>el.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();img.src=el.dataset.src;img.alt=el.dataset.title;title.textContent=el.dataset.title;link.href=el.dataset.src;modal.classList.add('open');}));
+  document.getElementById('close').onclick=()=>modal.classList.remove('open');
+  modal.addEventListener('click',e=>{if(e.target===modal)modal.classList.remove('open');});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')modal.classList.remove('open');});
+
+  document.querySelectorAll('#index a[data-target]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const el=document.getElementById(a.dataset.target);if(!el)return;const r=el.getBoundingClientRect();const br=board.getBoundingClientRect();const targetX=innerWidth/2-(r.left+r.width/2);const targetY=innerHeight/2-(r.top+r.height/2);x+=targetX;y+=targetY;apply();}));
+  apply();
+})();
+</script>
+</body>
+</html>
