@@ -122,10 +122,20 @@
           "03 — Reading the image"
         ]
       },
-      "summary": {
-        "en": [
-          "A preliminary sketch reproduced in Supercrit No. 1, p. 32. Its caption describes a view from a train arriving at a transfer area."
-        ]
+      
+"metadata": [
+  {
+    "label": {
+      "en": ["Documentary note"]
+    },
+    "value": {
+      "en": [
+        "The cover presents a view of the Potteries Thinkbelt from a railbus. The red branching graphic occupies the foreground; reading it as the interior of the railbus cab is an interpretation of the image."
+      ]
+    }
+  }
+],
+
       },
       "width": 620,
       "height": 877,
