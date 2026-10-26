@@ -169,10 +169,20 @@
           "04 — The caption trail"
         ]
       },
-      "summary": {
-        "en": [
-          "A drawing layer reproduced in Supercrit No. 1, p. 33, showing the development of the image used for the October 1966 cover."
-        ]
+     
+"metadata": [
+  {
+    "label": {
+      "en": ["Documentary note"]
+    },
+    "value": {
+      "en": [
+        "Later publications reproduce or recaption the cover image. Their captions differ, but the original October 1966 contents page identifies it as a view from a railbus at Longton Faculty Area, Potteries Thinkbelt."
+      ]
+    }
+  }
+],
+
       },
       "width": 620,
       "height": 877,
