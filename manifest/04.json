@@ -216,11 +216,20 @@
           "05 — Into the wider account"
         ]
       },
-      "summary": {
-        "en": [
-          "Cedric Price's Potteries Thinkbelt: A plan for an advanced educational industry in North Staffordshire. The title page marks the transition to the wider project account."
-        ]
-      },
+      
+"metadata": [
+  {
+    "label": {
+      "en": ["Documentary note"]
+    },
+    "value": {
+      "en": [
+        "This final canvas provides a point of departure from the cover study to the wider account of Potteries Thinkbelt development. The cover is one entry into a larger body of drawings, documents and interpretations."
+      ]
+    }
+  }
+],
+
       "width": 640,
       "height": 480,
       "items": [
