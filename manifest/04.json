@@ -87,11 +87,11 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://archiblog.github.io/images/item_27370.png",
+                "id": "https://archiblog.github.io/images/item_27371.png",
                 "type": "Image",
                 "format": "image/png",
-                "width": 2464,
-                "height": 2594
+                "width": 1172,
+                "height": 1572
               },
               "target": "https://archiblog.github.io/manifest/04/canvas-02"
             }
