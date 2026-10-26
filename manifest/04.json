@@ -75,10 +75,20 @@
           "02 — Contemporary evidence"
         ]
       },
-      "summary": {
-        "en": [
-          "The original contents page identifies the cover as by Cedric Price and describes the view as Longton Faculty Area, Potteries Thinkbelt."
-        ]
+      
+"metadata": [
+  {
+    "label": {
+      "en": ["Documentary note"]
+    },
+    "value": {
+      "en": [
+        "The original contents page identifies the cover as by Cedric Price and describes the view as a railbus view of Longton Faculty Area, Potteries Thinkbelt."
+      ]
+    }
+  }
+],
+
       },
       "width": 2464,
       "height": 2594,
