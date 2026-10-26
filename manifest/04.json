@@ -29,11 +29,20 @@
           "01 — The cover"
         ]
       },
-      "summary": {
-        "en": [
-          "The October 1966 cover of Architectural Design, presenting the Potteries Thinkbelt through a view from a railbus."
-        ]
-      },
+    
+"metadata": [
+  {
+    "label": {
+      "en": ["Documentary note"]
+    },
+    "value": {
+      "en": [
+        "The October 1966 cover of Architectural Design presents the Potteries Thinkbelt through a view from a railbus."
+      ]
+    }
+  }
+],
+
       "width": 2775,
       "height": 3600,
       "items": [
