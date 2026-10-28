@@ -1,0 +1,688 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://archiblog.github.io/manifest/06.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "What about Learning? — Documentary archaeology"
+    ]
+  },
+  "homepage": [
+    {
+      "id": "https://archiblog.github.io/index.html",
+      "type": "Text",
+      "label": {
+        "en": [
+          "Fantasia"
+        ]
+      },
+      "format": "text/html"
+    }
+  ],
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Source"
+        ]
+      },
+      "value": {
+        "en": [
+          "Architectural Design, May 1968 (AD/5/68). Selected pages presented in their original publication sequence, with two Atom double-page spreads retained as spreads."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Documentary method"
+        ]
+      },
+      "value": {
+        "en": [
+          "Canvas notes are based on the corresponding Record Cards. Descriptions, observations and questions are presented as an initial examination; relationships are to be investigated, not assumed."
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://archiblog.github.io/manifest/06/canvas-01",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "01 — The question on the cover (Cover)"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Documentary note"
+            ]
+          },
+          "value": {
+            "en": [
+              "The cover of Architectural Design, May 1968, pairs “What about Learning?” with an image of a wristwatch whose face appears to show a film scene. The question is left open; the relationship between learning, the image and time remains to be investigated."
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Source reference"
+            ]
+          },
+          "value": {
+            "en": [
+              "Architectural Design, May 1968, Cover."
+            ]
+          }
+        }
+      ],
+      "width": 588,
+      "height": 760,
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/06/page-01",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/06/annotation-01",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27348.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 588,
+                "height": 760
+              },
+              "target": "https://archiblog.github.io/manifest/06/canvas-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/06/canvas-02",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "02 — Learning (p. 207)"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Documentary note"
+            ]
+          },
+          "value": {
+            "en": [
+              "The page announces “LEARNING” in connection with the RIBA conference on “Building for Education: Looking forward”. The editorial text questions education that reproduces existing social and economic patterns, and raises the possibility of a different relationship between learning and the physical infrastructure provided for it. The argument continues on p. 242."
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Source reference"
+            ]
+          },
+          "value": {
+            "en": [
+              "Architectural Design, May 1968, p. 207."
+            ]
+          }
+        }
+      ],
+      "width": 588,
+      "height": 760,
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/06/page-02",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/06/annotation-02",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27349.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 588,
+                "height": 760
+              },
+              "target": "https://archiblog.github.io/manifest/06/canvas-02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/06/canvas-03",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "03 — Goodbye to the Classroom (p. 223)"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Documentary note"
+            ]
+          },
+          "value": {
+            "en": [
+              "A photograph of Orchard Ridge Campus accompanies text on programming and educational change. The article’s title contrasts with the conventional educational building shown, while the text envisages education extending into the home, factory, office and shopping centre."
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Source reference"
+            ]
+          },
+          "value": {
+            "en": [
+              "Architectural Design, May 1968, p. 223."
+            ]
+          }
+        }
+      ],
+      "width": 660,
+      "height": 862,
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/06/page-03",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/06/annotation-03",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27350.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 660,
+                "height": 862
+              },
+              "target": "https://archiblog.github.io/manifest/06/canvas-03"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/06/canvas-04",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "04 — Educational planning (p. 224)"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Documentary note"
+            ]
+          },
+          "value": {
+            "en": [
+              "Three columns discuss educational planning, individualised instruction, learning environments, programmed teaching and technology. The Record Card draws attention to the coordination of people, facilities, resources and time, while leaving open how this account relates to Atom."
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Source reference"
+            ]
+          },
+          "value": {
+            "en": [
+              "Architectural Design, May 1968, p. 224."
+            ]
+          }
+        }
+      ],
+      "width": 656,
+      "height": 864,
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/06/page-04",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/06/annotation-04",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27351.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 656,
+                "height": 864
+              },
+              "target": "https://archiblog.github.io/manifest/06/canvas-04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/06/canvas-05",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "05 — A network of educational resources (p. 225)"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Documentary note"
+            ]
+          },
+          "value": {
+            "en": [
+              "The article develops an account of an education-centre network, including its organisation, facilities, spatial requirements and potential for growth. Its tabulated requirements and provision for change suggest an institution extending beyond the individual school. The relationship to Atom remains a question for comparison."
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Source reference"
+            ]
+          },
+          "value": {
+            "en": [
+              "Architectural Design, May 1968, p. 225."
+            ]
+          }
+        }
+      ],
+      "width": 655,
+      "height": 861,
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/06/page-05",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/06/annotation-05",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27352.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 655,
+                "height": 861
+              },
+              "target": "https://archiblog.github.io/manifest/06/canvas-05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/06/canvas-06",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "06 — Atom: facilities within a town (pp. 232–233)"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Documentary note"
+            ]
+          },
+          "value": {
+            "en": [
+              "The first double-page spread presents Atom as a proposal for educational facilities integrated with the infrastructure of a new town. Text, a network diagram, building axonometric, plans, sections and photographs bring together a distributed network of local facilities and an adaptable building system. The relationships between facilities, building types and the wider town remain to be examined."
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Source reference"
+            ]
+          },
+          "value": {
+            "en": [
+              "Architectural Design, May 1968, pp. 232–233."
+            ]
+          }
+        }
+      ],
+      "width": 1176,
+      "height": 760,
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/06/page-06",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/06/annotation-06",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27362.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 1176,
+                "height": 760
+              },
+              "target": "https://archiblog.github.io/manifest/06/canvas-06"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/06/canvas-07",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "07 — Atom: provision and change (pp. 234–235)"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Documentary note"
+            ]
+          },
+          "value": {
+            "en": [
+              "The second double-page spread continues with text, a large chart, plans and photographs concerning educational facilities, equipment and patterns of provision. The chart relates facility types to use, location and lifespan. It invites comparison with the network and building system presented on pp. 232–233."
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Source reference"
+            ]
+          },
+          "value": {
+            "en": [
+              "Architectural Design, May 1968, pp. 234–235."
+            ]
+          }
+        }
+      ],
+      "width": 1176,
+      "height": 760,
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/06/page-07",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/06/annotation-07",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27363.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 1176,
+                "height": 760
+              },
+              "target": "https://archiblog.github.io/manifest/06/canvas-07"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/06/canvas-08",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "08 — Self-pace, public skill and information hive (p. 237)"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Documentary note"
+            ]
+          },
+          "value": {
+            "en": [
+              "The OCH proposal combines a public-library scheme with self-service book storage, information systems, architectural drawings and a communications-network diagram. The Record Card draws attention to the connection between physical space, circulation and information retrieval. How these elements relate operationally remains to be investigated."
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Source reference"
+            ]
+          },
+          "value": {
+            "en": [
+              "Architectural Design, May 1968, p. 237."
+            ]
+          }
+        }
+      ],
+      "width": 588,
+      "height": 760,
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/06/page-08",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/06/annotation-08",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27357.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 588,
+                "height": 760
+              },
+              "target": "https://archiblog.github.io/manifest/06/canvas-08"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/06/canvas-09",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "09 — OCH: floor plans (p. 238)"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Documentary note"
+            ]
+          },
+          "value": {
+            "en": [
+              "Four plans—basement, ground floor, first floor and second floor—are accompanied by explanatory text. The plans provide the basis for examining how spaces and circulation are organised across the building. The relationship between the plans and the proposed information network remains open."
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Source reference"
+            ]
+          },
+          "value": {
+            "en": [
+              "Architectural Design, May 1968, p. 238."
+            ]
+          }
+        }
+      ],
+      "width": 655,
+      "height": 864,
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/06/page-09",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/06/annotation-09",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27358.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 655,
+                "height": 864
+              },
+              "target": "https://archiblog.github.io/manifest/06/canvas-09"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/06/canvas-10",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "10 — OCH: rearrangement and projection (p. 239)"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Documentary note"
+            ]
+          },
+          "value": {
+            "en": [
+              "Text accompanies third- and fourth-floor plans and diagrams of potential banked seating, a triple-projection system and movable floors. The page raises a question about whether the capacity for change extends beyond the rearrangement of physical elements to the organisation of activities and institutions."
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Source reference"
+            ]
+          },
+          "value": {
+            "en": [
+              "Architectural Design, May 1968, p. 239."
+            ]
+          }
+        }
+      ],
+      "width": 658,
+      "height": 861,
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/06/page-10",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/06/annotation-10",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27359.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 658,
+                "height": 861
+              },
+              "target": "https://archiblog.github.io/manifest/06/canvas-10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://archiblog.github.io/manifest/06/canvas-11",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "11 — The editorial continues (p. 242)"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Documentary note"
+            ]
+          },
+          "value": {
+            "en": [
+              "The editorial resumes its argument for lifelong learning beyond conventional educational institutions. It considers learning in homes, workplaces and public settings, with educational provision understood as a continuing service requiring adaptable space and institutional change. The page returns the reader to the question raised on p. 207."
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Source reference"
+            ]
+          },
+          "value": {
+            "en": [
+              "Architectural Design, May 1968, p. 242."
+            ]
+          }
+        }
+      ],
+      "width": 588,
+      "height": 760,
+      "items": [
+        {
+          "id": "https://archiblog.github.io/manifest/06/page-11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://archiblog.github.io/manifest/06/annotation-11",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archiblog.github.io/images/item_27360.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 588,
+                "height": 760
+              },
+              "target": "https://archiblog.github.io/manifest/06/canvas-11"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
