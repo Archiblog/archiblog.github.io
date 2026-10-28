@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>06 — Atom and its Development</title>
+<style>
+:root{--red:#ff1616;--white:#f7f7f7;--black:#050505;--muted:#a8a8a8}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:var(--black);font-family:Arial,Helvetica,sans-serif;color:var(--white)}
+body{user-select:none}#viewport{position:fixed;inset:0;overflow:hidden;cursor:grab;background:#050505}#viewport.dragging{cursor:grabbing}
+#board{position:absolute;left:0;top:0;width:2700px;height:1650px;transform-origin:0 0}
+.item{position:absolute;display:block;margin:0;padding:0;border:0;background:none;color:inherit;text-decoration:none;cursor:pointer;z-index:2;transition:filter .18s}
+.item:hover{filter:brightness(1.1);z-index:20}.item img{display:block;width:100%;height:auto;border-radius:2px;box-shadow:0 16px 35px rgba(0,0,0,.55)}
+.label{position:absolute;left:0;bottom:-39px;font-size:13px;line-height:1.2;letter-spacing:.055em;text-transform:uppercase;color:#ddd;white-space:normal;max-width:110%}.label b{color:var(--red);font-weight:700}
+.text-item{position:absolute;display:block;text-decoration:none;cursor:pointer;background:#efefef;color:#111;padding:22px;box-shadow:0 18px 38px rgba(0,0,0,.55);z-index:3;transform:rotate(-1deg)}
+.text-item:hover{filter:brightness(1.05);z-index:20}.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}.main{font-size:22px;line-height:1.08;font-weight:700}.small{margin-top:18px;font-size:12px;line-height:1.45;color:#555}
+#title{position:absolute;left:75px;top:55px;z-index:50;pointer-events:none}#title .number{font-size:112px;font-weight:800;line-height:.78;color:var(--red);letter-spacing:-.08em}#title .words{position:absolute;left:105px;top:3px;font-size:30px;font-weight:700;line-height:1.02;letter-spacing:.02em;text-transform:uppercase}#title .sub{margin-top:18px;color:#aaa;font-size:12px;letter-spacing:.16em;text-transform:uppercase}
+#index{position:fixed;right:24px;top:24px;width:330px;max-height:calc(100vh - 105px);overflow:auto;background:rgba(5,5,5,.9);border:1px solid #333;padding:18px;z-index:100}#index h2{margin:0 0 12px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#aaa}#index a{display:flex;gap:10px;align-items:baseline;padding:8px 0;border-top:1px solid #252525;color:#eee;text-decoration:none;font-size:12px;line-height:1.25}#index a:hover{color:#fff;text-decoration:underline}#index .n{color:var(--red);font-weight:700;min-width:18px}
+#controls{position:fixed;left:24px;bottom:24px;display:flex;gap:6px;z-index:100}#controls button{width:34px;height:34px;border:1px solid #555;background:#050505;color:#fff;font-size:20px;cursor:pointer}#hint{position:fixed;left:138px;bottom:34px;z-index:100;color:#999;font-size:11px;letter-spacing:.08em;text-transform:uppercase;pointer-events:none}
+#modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.93);z-index:200;padding:50px;align-items:center;justify-content:center}#modalBox{position:relative;max-width:90vw;max-height:88vh;text-align:center}#modalImg{display:block;max-width:88vw;max-height:76vh;width:auto;height:auto;margin:auto;box-shadow:0 10px 40px #000}#modalTitle{margin-top:14px;font-size:14px;color:#eee}#modalLink{display:inline-block;margin-top:8px;color:#aaa;font-size:12px}#close{position:absolute;right:-28px;top:-30px;background:none;border:0;color:#fff;font-size:28px;cursor:pointer}
+@media(max-width:700px){#index{right:8px;top:8px;width:245px;padding:12px;max-height:45vh}#title{left:25px;top:25px;transform:scale(.7);transform-origin:top left}#controls{left:10px;bottom:10px}#hint{left:130px;bottom:20px;font-size:9px}#modal{padding:25px}}
+</style>
+</head>
+<body>
+<div id="viewport"><div id="board">
+  <div id="title"><div class="number">06</div><div class="words">Atom and<br>its Development</div><div class="sub">A field of educational propositions, facilities, networks and change</div></div>
+
+  <a class="item" id="cover" href="#" data-title="01 — What about Learning? — Architectural Design, May 1968, cover" data-src="images/item_27348.png" style="left:105px;top:205px;width:310px;transform:rotate(-3deg)"><img src="images/item_27348.png" alt="Architectural Design May 1968 cover"><span class="label"><b>01</b> Entry / What about Learning?</span></a>
+  <a class="item" id="learning" href="#" data-title="02 — Learning — editorial, p. 207" data-src="images/item_27349.png" style="left:490px;top:210px;width:255px;transform:rotate(2deg)"><img src="images/item_27349.png" alt="Learning editorial, page 207"><span class="label"><b>02</b> Editorial / p. 207</span></a>
+  <a class="item" id="conference" href="#" data-title="03 — Learning and the RIBA conference on Building for Education: Looking Forward" data-src="images/item_27361.png" style="left:820px;top:195px;width:400px;transform:rotate(-1deg)"><img src="images/item_27361.png" alt="Learning heading and notice of the RIBA conference"><span class="label"><b>03</b> Learning / conference context</span></a>
+
+  <a class="item" id="classroom" href="#" data-title="04 — Goodbye to the Classroom, p. 223" data-src="images/item_27350.png" style="left:125px;top:690px;width:300px;transform:rotate(2deg)"><img src="images/item_27350.png" alt="Goodbye to the Classroom, page 223"><span class="label"><b>04</b> Beyond the classroom / p. 223</span></a>
+  <a class="item" id="planning" href="#" data-title="05 — Educational planning, p. 224" data-src="images/item_27351.png" style="left:480px;top:675px;width:275px;transform:rotate(-2deg)"><img src="images/item_27351.png" alt="Educational planning, page 224"><span class="label"><b>05</b> Educational planning / p. 224</span></a>
+  <a class="item" id="network" href="#" data-title="06 — A network of educational resources, p. 225" data-src="images/item_27352.png" style="left:800px;top:680px;width:285px;transform:rotate(1deg)"><img src="images/item_27352.png" alt="A network of educational resources, page 225"><span class="label"><b>06</b> Educational resources / p. 225</span></a>
+
+  <a class="item" id="atom1" href="#" data-title="07 — Atom: facilities within a town, pp. 232–233" data-src="images/item_27362.png" style="left:1290px;top:250px;width:590px;transform:rotate(-1deg)"><img src="images/item_27362.png" alt="Atom double-page spread, pages 232–233"><span class="label"><b>07</b> Atom / facilities within a town / pp. 232–233</span></a>
+  <a class="item" id="atom2" href="#" data-title="08 — Atom: provision and change, pp. 234–235" data-src="images/item_27363.png" style="left:1310px;top:730px;width:590px;transform:rotate(1deg)"><img src="images/item_27363.png" alt="Atom double-page spread, pages 234–235"><span class="label"><b>08</b> Atom / provision and change / pp. 234–235</span></a>
+
+  <a class="item" id="och1" href="#" data-title="09 — Self-pace, public skill and information hive, p. 237" data-src="images/item_27357.png" style="left:2010px;top:230px;width:260px;transform:rotate(-2deg)"><img src="images/item_27357.png" alt="OCH proposal, page 237"><span class="label"><b>09</b> OCH / information hive / p. 237</span></a>
+  <a class="item" id="och2" href="#" data-title="10 — OCH floor plans, p. 238" data-src="images/item_27358.png" style="left:2035px;top:610px;width:275px;transform:rotate(2deg)"><img src="images/item_27358.png" alt="OCH floor plans, page 238"><span class="label"><b>10</b> OCH / floor plans / p. 238</span></a>
+  <a class="item" id="och3" href="#" data-title="11 — OCH: rearrangement and projection, p. 239" data-src="images/item_27359.png" style="left:2045px;top:1010px;width:265px;transform:rotate(-1deg)"><img src="images/item_27359.png" alt="OCH rearrangement and projection, page 239"><span class="label"><b>11</b> OCH / rearrangement / p. 239</span></a>
+
+  <a class="item" id="editorialend" href="#" data-title="12 — The editorial continues, p. 242" data-src="images/item_27360.png" style="left:480px;top:1120px;width:255px;transform:rotate(-2deg)"><img src="images/item_27360.png" alt="Editorial continuation, page 242"><span class="label"><b>12</b> Editorial returns / p. 242</span></a>
+
+  <div class="text-item" id="question" style="left:830px;top:1120px;width:390px;min-height:225px;transform:rotate(1deg)"><div class="eyebrow">A question held open</div><div class="main">What changes when learning is understood as a continuing service rather than an activity confined to a school?</div><div class="small">The pages gathered here connect educational planning, distributed facilities, information systems and adaptable buildings. Their relationships—and their limits—remain open to examination.</div></div>
+  <div class="text-item" id="wider" style="left:1330px;top:1190px;width:400px;min-height:170px;transform:rotate(-1deg)"><div class="eyebrow">Wider account / working guide</div><div class="main">From educational provision to spatial and institutional change</div><div class="small">This field rearranges selected pages from AD/5/68 by subject, rather than by publication order. It is an invitation to compare the evidence, not a claim that every connection has already been established.</div></div>
+</div></div>
+
+<nav id="index" aria-label="Atom Wider Account index"><h2>Atom and its Development</h2>
+<a href="#" data-target="cover"><span class="n">01</span>Entry — What about Learning?</a>
+<a href="#" data-target="learning"><span class="n">02</span>Editorial — p. 207</a>
+<a href="#" data-target="conference"><span class="n">03</span>Conference context</a>
+<a href="#" data-target="classroom"><span class="n">04</span>Beyond the classroom</a>
+<a href="#" data-target="planning"><span class="n">05</span>Educational planning</a>
+<a href="#" data-target="network"><span class="n">06</span>Network of resources</a>
+<a href="#" data-target="atom1"><span class="n">07</span>Atom — facilities / pp. 232–233</a>
+<a href="#" data-target="atom2"><span class="n">08</span>Atom — provision and change</a>
+<a href="#" data-target="och1"><span class="n">09</span>OCH — information hive</a>
+<a href="#" data-target="och2"><span class="n">10</span>OCH — floor plans</a>
+<a href="#" data-target="och3"><span class="n">11</span>OCH — rearrangement</a>
+<a href="#" data-target="editorialend"><span class="n">12</span>Editorial — p. 242</a>
+<a href="#" data-target="question"><span class="n">13</span>Question held open</a>
+</nav>
+<div id="controls"><button id="minus" aria-label="Zoom out">−</button><button id="reset" aria-label="Reset view">0</button><button id="plus" aria-label="Zoom in">+</button></div><div id="hint">drag to move · wheel to zoom · click a document to inspect</div>
+<div id="modal" role="dialog" aria-modal="true" aria-label="Document detail"><div id="modalBox"><button id="close" aria-label="Close">×</button><img id="modalImg" alt=""><div id="modalTitle"></div><a id="modalLink" href="#" target="_blank" rel="noopener">open full image</a></div></div>
+<script>
+(()=>{const viewport=document.getElementById('viewport'),board=document.getElementById('board');let scale=.62,x=-15,y=-10,dragging=false,sx=0,sy=0,ox=0,oy=0;
+function apply(){board.style.transform=`translate(${x}px,${y}px) scale(${scale})`}
+function zoomAt(factor,cx=innerWidth/2,cy=innerHeight/2){const old=scale,next=Math.max(.32,Math.min(1.3,old*factor));x=cx-(cx-x)*(next/old);y=cy-(cy-y)*(next/old);scale=next;apply()}
+viewport.addEventListener('pointerdown',e=>{if(e.target.closest('.item,#index,#controls,#modal,.text-item'))return;dragging=true;viewport.classList.add('dragging');sx=e.clientX;sy=e.clientY;ox=x;oy=y;viewport.setPointerCapture(e.pointerId)});
+viewport.addEventListener('pointermove',e=>{if(!dragging)return;x=ox+e.clientX-sx;y=oy+e.clientY-sy;apply()});viewport.addEventListener('pointerup',()=>{dragging=false;viewport.classList.remove('dragging')});viewport.addEventListener('pointercancel',()=>{dragging=false;viewport.classList.remove('dragging')});viewport.addEventListener('wheel',e=>{e.preventDefault();zoomAt(e.deltaY<0?1.08:.925,e.clientX,e.clientY)},{passive:false});
+document.getElementById('plus').onclick=()=>zoomAt(1.15);document.getElementById('minus').onclick=()=>zoomAt(.87);document.getElementById('reset').onclick=()=>{scale=.62;x=-15;y=-10;apply()};
+const modal=document.getElementById('modal'),img=document.getElementById('modalImg'),title=document.getElementById('modalTitle'),link=document.getElementById('modalLink');
+document.querySelectorAll('.item').forEach(el=>el.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();img.src=el.dataset.src;img.alt=el.dataset.title;title.textContent=el.dataset.title;link.href=el.dataset.src;modal.style.display='flex'}));
+document.getElementById('close').onclick=()=>modal.style.display='none';modal.addEventListener('click',e=>{if(e.target===modal)modal.style.display='none'});document.addEventListener('keydown',e=>{if(e.key==='Escape')modal.style.display='none'});
+function centreOn(el){const r=el.getBoundingClientRect();x+=innerWidth/2-(r.left+r.width/2);y+=innerHeight/2-(r.top+r.height/2);apply()}
+document.querySelectorAll('#index a[data-target]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const el=document.getElementById(a.dataset.target);if(el)centreOn(el)}));apply();})();
+</script>
+</body></html>
