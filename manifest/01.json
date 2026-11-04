@@ -6,6 +6,20 @@
       "Medikit II"
     ]
   },
+
+  "metadata": [
+    {
+      "label": {
+        "en": ["Description"]
+      },
+      "value": {
+        "en": [
+          "Medikit was developed by Tony Dugdale and colleagues as an alternative approach to the organisation of medical provision and the use of national resources. Questioning the continued investment in the design of autonomous hospitals by regional hospital boards and their architects, the project became a catalyst for subsequent investigations by Norman Fellows, including Domestikit and Edukit. Medikit II revisits this earlier experiment as a point of departure for further enquiry into health provision."
+        ]
+      }
+    }
+  ],
+  
   "items": [
     {
       "id": "https://archiblog.github.io/manifest/01/canvas-01",
