@@ -3,7 +3,7 @@
   "type": "Manifest",
   "label": {
     "en": [
-      "Medikit"
+      "Medikit II"
     ]
   },
   "items": [
@@ -12,7 +12,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "Medikit drawing"
+          "Medikit II drawing"
         ]
       },
       "width": 1448,
